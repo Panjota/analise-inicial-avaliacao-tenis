@@ -156,14 +156,14 @@ class AmazonSpider(scrapy.Spider):
                 break  # Apenas uma página por vez
 
     def parse_produto(self, response):
-        """Extrai dados do produto individual na Amazon"""
+        """Extrai dados do produto individual na Amazon com seletores otimizados"""
         
         # Verificar se é realmente um tênis de corrida
         page_text = response.text.lower()
         title_text = response.css('#productTitle::text').get() or ""
         title_text = title_text.lower()
         
-        running_keywords = ['corrida', 'running', 'tênis', 'tenis', 'calçado esportivo']
+        running_keywords = ['corrida', 'running', 'tênis', 'tenis', 'calçado esportivo', 'fuelcell', 'boost']
         if not any(keyword in page_text or keyword in title_text for keyword in running_keywords):
             self.logger.info(f"Produto não parece ser tênis de corrida: {response.url}")
             return
@@ -174,40 +174,60 @@ class AmazonSpider(scrapy.Spider):
         item["loja"] = "Amazon"
         item["url_produto"] = response.url
         
-        # Título/Modelo
+        # Título/Modelo - Seletor validado manualmente
         titulo = response.css('#productTitle::text').get()
         if titulo:
             item["modelo"] = titulo.strip()
+            self.logger.debug(f"Modelo extraído: {item['modelo']}")
         
-        # Marca - Amazon tem estrutura específica
-        marca = (
-            response.css('#bylineInfo_feature_div a::text').get() or
-            response.css('.a-row .a-size-small.a-link-normal::text').get() or
-            response.css('[data-brand]::attr(data-brand)').get()
-        )
-        if marca:
-            item["marca"] = marca.strip()
+        # Marca - Seletores otimizados baseados na análise manual
+        marca_selectors = [
+            '#bylineInfo::text',  # Seletor principal: "Marca: New Balance"
+            '#bylineInfo .a-link-normal::text',
+            '#bylineInfo_feature_div a::text',
+            '.a-row .a-size-small.a-link-normal::text',
+            '[data-brand]::attr(data-brand)'
+        ]
         
-        # Preços - CORRIGIDO com base nos logs de debug
+        for selector in marca_selectors:
+            marca = response.css(selector).get()
+            if marca:
+                # Limpar "Marca: " se presente
+                marca = marca.replace('Marca: ', '').replace('Visite a loja ', '').strip()
+                item["marca"] = marca
+                self.logger.debug(f"Marca extraída: {marca}")
+                break
+        
+        # Preço - Seletores otimizados baseados na análise manual
         preco_selectors = [
-            '.a-price .a-offscreen::text',  # ESTE É O QUE FUNCIONA!
-            '.a-price-current .a-offscreen::text',
+            '.aok-offscreen::text',  # Seletor PRINCIPAL: "R$ 1.099,90"
+            '.a-price .a-offscreen::text',  # Fallback 1
+            '.a-price-current .a-offscreen::text',  # Fallback 2
             '.a-price.a-text-price.a-size-medium.apexPriceToPay .a-offscreen::text',
             '#price_inside_buybox::text',
-            '.a-price-range .a-offscreen::text',
         ]
         
         for selector in preco_selectors:
             precos = response.css(selector).getall()
             for preco in precos:
-                # Limpar espaços e caracteres especiais
+                # Limpar espaços e caracteres especiais (\xa0)
                 preco_limpo = preco.strip().replace('\xa0', ' ')
                 if preco_limpo and 'R$' in preco_limpo and len(preco_limpo) > 3:
                     # Verificar se tem números (não só símbolo R$)
                     if any(char.isdigit() for char in preco_limpo):
-                        item["preco"] = preco_limpo
-                        self.logger.info(f"PREÇO CAPTURADO: {preco_limpo}")
-                        break
+                        try:
+                            # Converter para float para validação
+                            preco_numerico = re.sub(r'[^\d,]', '', preco_limpo)
+                            if preco_numerico and ',' in preco_numerico:
+                                preco_float = float(preco_numerico.replace(',', '.'))
+                                item["preco"] = preco_float
+                                self.logger.info(f"PREÇO CAPTURADO: R${preco_float}")
+                                break
+                        except (ValueError, AttributeError) as e:
+                            # Se falhar conversão, manter texto original
+                            item["preco"] = preco_limpo
+                            self.logger.info(f"PREÇO CAPTURADO (texto): {preco_limpo}")
+                            break
             if item.get("preco"):
                 break
         
@@ -216,15 +236,49 @@ class AmazonSpider(scrapy.Spider):
         if preco_original and 'R$' in preco_original and preco_original != item.get("preco"):
             item["preco_original"] = preco_original.strip()
         
-        # Avaliações - Amazon tem sistema específico
-        avaliacao = response.css('.a-icon-alt::text').re_first(r'(\d+[,.]?\d*) de 5 estrelas')
-        if avaliacao:
-            item["avaliacao_media"] = avaliacao.replace(',', '.')
+        # Avaliações - Seletores otimizados baseados na análise manual
+        # Nota média: procurar por "4,5" em .a-size-small.a-color-base
+        avaliacao_selectors = [
+            '.a-size-small.a-color-base::text',  # PRINCIPAL: "4,5"
+            '.a-icon-alt::text',  # Fallback: "4,5 de 5 estrelas"
+            '[data-hook="average-star-rating"] .a-icon-alt::text'
+        ]
         
-        # Quantidade de avaliações
-        qtd_avaliacoes = response.css('#acrCustomerReviewText::text').re_first(r'(\d+)')
-        if qtd_avaliacoes:
-            item["qtd_avaliacoes"] = qtd_avaliacoes
+        for selector in avaliacao_selectors:
+            avaliacao = response.css(selector).get()
+            if avaliacao and any(char.isdigit() for char in avaliacao):
+                try:
+                    # Extrair apenas números da avaliação
+                    nota_match = re.search(r'(\d+[,.]?\d*)', avaliacao.strip())
+                    if nota_match:
+                        nota_str = nota_match.group(1).replace(',', '.')
+                        item["avaliacao_media"] = float(nota_str)
+                        self.logger.debug(f"Avaliação extraída: {item['avaliacao_media']}")
+                        break
+                except (ValueError, AttributeError) as e:
+                    self.logger.debug(f"Erro ao processar avaliação '{avaliacao}': {e}")
+                    continue
+
+        # Quantidade de avaliações: "(57)" em #acrCustomerReviewText
+        qtd_avaliacoes_selectors = [
+            '#acrCustomerReviewText::text',  # PRINCIPAL: "(57)"
+            '[data-hook="total-review-count"]::text',
+            '.a-size-small a::text'
+        ]
+        
+        for selector in qtd_avaliacoes_selectors:
+            qtd_text = response.css(selector).get()
+            if qtd_text:
+                try:
+                    # Extrair número entre parênteses ou direto
+                    qtd_match = re.search(r'(\d+)', qtd_text)
+                    if qtd_match:
+                        item["qtd_avaliacoes"] = int(qtd_match.group(1))
+                        self.logger.debug(f"Qtd avaliações: {item['qtd_avaliacoes']}")
+                        break
+                except (ValueError, AttributeError) as e:
+                    self.logger.debug(f"Erro ao processar qtd avaliações '{qtd_text}': {e}")
+                    continue
         
         # Categoria via breadcrumb
         breadcrumb = response.css('#wayfinding-breadcrumbs_feature_div a::text').getall()
@@ -270,29 +324,153 @@ class AmazonSpider(scrapy.Spider):
             if specs:
                 specs_text += ' '.join(specs).lower()
         
-        # Tipo de sola
-        sola_keywords = {
-            "eva": "EVA", "gel": "GEL", "air": "Air", "boost": "Boost",
-            "zoom": "Zoom", "borracha": "Borracha", "carbono": "Carbono",
-            "cloudfoam": "Cloudfoam", "bounce": "Bounce"
-        }
+        # === CAMPOS ESPECÍFICOS BASEADOS NA ANÁLISE MANUAL ===
         
-        for keyword, sola_type in sola_keywords.items():
-            if keyword in specs_text:
-                item["tipo_sola"] = sola_type
+        material_sola_selectors = [
+            '//div[@class="a-fixed-left-grid-inner"][.//span[contains(text(), "Material da sola")]]//div[@class="a-fixed-left-grid-col a-col-right"]//span[@class="a-color-base"]/text()',
+            '.a-fixed-left-grid-inner:has(span:contains("Material da sola")) .a-col-right .a-color-base::text',
+            '#feature-bullets li:contains("Material da sola")::text'
+        ]
+        
+        for i, selector in enumerate(material_sola_selectors):
+            if i == 0:  # XPath selector (mais preciso)
+                material_sola = response.xpath(selector).get()
+            else:  # CSS selector
+                material_sola = response.css(selector).get()
+                
+            if material_sola and material_sola.strip() and "Material da sola" not in material_sola:
+                item["tipo_sola"] = material_sola.strip()
+                self.logger.debug(f"Material da sola capturado: {item['tipo_sola']}")
                 break
         
-        # Material do cabedal
-        cabedal_keywords = {
-            "mesh": "Mesh", "flyknit": "Flyknit", "primeknit": "Primeknit",
-            "textile": "Têxtil", "synthetic": "Sintético", "knit": "Knit",
-            "tecido": "Tecido", "sintético": "Sintético"
-        }
+        # Material externo - Seletor corrigido para capturar o VALOR, não o rótulo
+        material_externo_selectors = [
+            '//div[@class="a-fixed-left-grid-inner"][.//span[contains(text(), "Material externo")]]//div[@class="a-fixed-left-grid-col a-col-right"]//span[@class="a-color-base"]/text()',
+            '.a-fixed-left-grid-inner:has(span:contains("Material externo")) .a-col-right .a-color-base::text',
+            '#feature-bullets li:contains("Material externo")::text'
+        ]
         
-        for keyword, material in cabedal_keywords.items():
-            if keyword in specs_text:
-                item["material_cabedal"] = material
+        for i, selector in enumerate(material_externo_selectors):
+            if i == 0:  # XPath selector (mais preciso)
+                material_externo = response.xpath(selector).get()
+            else:  # CSS selector
+                material_externo = response.css(selector).get()
+                
+            if material_externo and material_externo.strip() and "Material externo" not in material_externo:
+                item["material_cabedal"] = material_externo.strip()
+                self.logger.debug(f"Material externo capturado: {item['material_cabedal']}")
                 break
+        
+        # Tipo de fecho - Seletor corrigido para capturar o VALOR, não o rótulo
+        tipo_fecho_selectors = [
+            '//div[@class="a-fixed-left-grid-inner"][.//span[contains(text(), "Tipo de fecho")]]//div[@class="a-fixed-left-grid-col a-col-right"]//span[@class="a-color-base"]/text()',
+            '.a-fixed-left-grid-inner:has(span:contains("Tipo de fecho")) .a-col-right .a-color-base::text',
+            '#feature-bullets li:contains("fecho")::text'
+        ]
+        
+        for i, selector in enumerate(tipo_fecho_selectors):
+            if i == 0:  # XPath selector (mais preciso)
+                tipo_fecho = response.xpath(selector).get()
+            else:  # CSS selector
+                tipo_fecho = response.css(selector).get()
+                
+            if tipo_fecho and tipo_fecho.strip() and "Tipo de fecho" not in tipo_fecho:
+                # Usar campo específico novo
+                item["tipo_fecho"] = tipo_fecho.strip()
+                self.logger.debug(f"Tipo de fecho capturado: {item['tipo_fecho']}")
+                break
+        
+        # Peso do produto - Extrair das especificações detalhadas
+        peso_selectors = [
+            '#detailBullets_feature_div li:contains("quilograma")::text',
+            '#detailBullets_feature_div li:contains("gramas")::text', 
+            '#detailBullets_feature_div li:contains("Peso")::text',
+            '#productDetails_detailBullets_sections1 td:contains("peso")::text'
+        ]
+        
+        for selector in peso_selectors:
+            peso_text = response.css(selector).get()
+            if peso_text:
+                # Extrair peso em gramas ou quilos
+                peso_match = re.search(r'(\d+(?:[.,]\d+)?)\s*(gramas?|quilogramas?|kg|g)', peso_text.lower())
+                if peso_match:
+                    valor = float(peso_match.group(1).replace(',', '.'))
+                    unidade = peso_match.group(2)
+                    
+                    # Converter para gramas se necessário
+                    if 'kg' in unidade or 'quilograma' in unidade:
+                        valor = valor * 1000
+                    
+                    item["peso"] = f"{int(valor)}g"
+                    self.logger.debug(f"Peso extraído: {item['peso']}")
+                    break
+        
+        # Descrição do produto para extrair tecnologias
+        descricao_selectors = [
+            '#productDescription p::text',
+            '#productDescription span::text',
+            '#feature-bullets li span::text'
+        ]
+        
+        descricao_texto = ""
+        for selector in descricao_selectors:
+            textos = response.css(selector).getall()
+            if textos:
+                descricao_texto += " ".join(textos).lower()
+        
+        # Extrair tecnologias da descrição
+        tecnologias_encontradas = []
+        tecnologias_keywords = [
+            'fuelcell', 'boost', 'ultraboost', 'zoom', 'air max', 'gel',
+            'cloudfoam', 'bounce', 'energyfoam', 'react', 'vaporfly',
+            'flyknit', 'primeknit', 'dri-fit', 'climacool', 'gore-tex'
+        ]
+        
+        for tech in tecnologias_keywords:
+            if tech in descricao_texto:
+                tecnologias_encontradas.append(tech.title())
+        
+        if tecnologias_encontradas:
+            tecnologia_atual = item.get("tecnologia", "")
+            novas_techs = ", ".join(tecnologias_encontradas)
+            if tecnologia_atual:
+                item["tecnologia"] = f"{tecnologia_atual}, {novas_techs}"
+            else:
+                item["tecnologia"] = novas_techs
+            self.logger.debug(f"Tecnologias extraídas: {novas_techs}")
+        
+        # Especificações detalhadas - ASIN, número do modelo, etc.
+        detalhes_bullets = response.css('#detailBullets_feature_div li')
+        for bullet in detalhes_bullets:
+            texto_completo = bullet.css('::text').getall()
+            texto_limpo = " ".join([t.strip() for t in texto_completo if t.strip()])
+            
+            # Extrair ASIN
+            if 'ASIN' in texto_limpo:
+                asin_match = re.search(r'ASIN.*?:\s*([A-Z0-9]+)', texto_limpo)
+                if asin_match:
+                    # Adicionar ASIN aos metadados (pode criar campo específico se necessário)
+                    self.logger.debug(f"ASIN encontrado: {asin_match.group(1)}")
+            
+            # Extrair número do modelo
+            if 'modelo' in texto_limpo.lower():
+                modelo_match = re.search(r'modelo.*?:\s*([A-Z0-9\-]+)', texto_limpo, re.IGNORECASE)
+                if modelo_match:
+                    self.logger.debug(f"Número do modelo: {modelo_match.group(1)}")
+        
+        # Especificações do produto - seção #prodDetails (quando disponível)
+        prod_details = response.css('#prodDetails')
+        if prod_details:
+            # Extrair informações adicionais desta seção
+            details_text = " ".join(prod_details.css('::text').getall()).lower()
+            
+            # Buscar drop (diferença de altura)
+            drop_match = re.search(r'drop.*?(\d+(?:[.,]\d+)?)\s*mm', details_text)
+            if drop_match:
+                item["drop"] = f"{drop_match.group(1)}mm"
+                self.logger.debug(f"Drop extraído: {item['drop']}")
+        
+        # === FIM DOS CAMPOS ESPECÍFICOS ===
         
         # Tecnologias
         tech_keywords = [

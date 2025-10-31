@@ -27,6 +27,7 @@ class ProdutoItem(scrapy.Item):
     # Especificações técnicas
     tipo_sola = scrapy.Field()
     material_cabedal = scrapy.Field()
+    tipo_fecho = scrapy.Field()  # Novo campo específico para tipo de fecho
     drop = scrapy.Field()
     peso = scrapy.Field()
     tecnologia = scrapy.Field()

@@ -1,0 +1,47 @@
+Atributo,Total,Não-Nulos,Nulos,Completude (%),Valores Únicos
+name,530,530,0,100.0,530
+breathability,530,530,0,100.0,9
+image,530,530,0,100.0,530
+price_usd,530,530,0,100.0,43
+price,530,530,0,100.0,43
+url,530,530,0,100.0,530
+arch support,530,530,0,100.0,3
+weight lab weight brand,530,530,0,100.0,475
+brand,530,530,0,100.0,26
+drop lab drop brand,530,530,0,100.0,313
+strike pattern,530,530,0,100.0,3
+midsole softness,530,530,0,100.0,175
+difference in midsole softness in cold,530,530,0,100.0,5
+heel padding durability,530,530,0,100.0,4
+toebox durability,530,528,2,99.6,6
+outsole durability,530,528,2,99.6,4
+audience_score,530,521,9,98.3,23
+audience score,530,521,9,98.3,23
+heel stack,530,519,11,97.9,176
+forefoot stack,530,519,11,97.9,177
+drop,530,518,12,97.7,134
+drop_mm,530,518,12,97.7,132
+flexibility / stiffness (old method),530,423,107,79.8,242
+pace,530,409,121,77.2,5
+weight,530,355,175,67.0,128
+weight_grams,530,355,175,67.0,128
+flexibility / stiffness (new method),530,311,219,58.7,133
+lightweight,530,242,288,45.7,2
+trail terrain,530,121,409,22.8,5
+heel stack lab heel stack brand,530,121,409,22.8,119
+midsole width - forefoot,530,57,473,10.8,48
+midsole width - heel,530,32,498,6.0,29
+outsole thickness,530,11,519,2.1,10
+weight (g),530,9,521,1.7,9
+drop (mm),530,9,521,1.7,8
+flexibility of the shoe (n),530,9,521,1.7,9
+flexibility of the shoe (% of change),530,9,521,1.7,9
+flexibility of the shoe (freezer 20 min) (n),530,8,522,1.5,8
+"longitudinal flexibility (1-5 scale, 5 being the stiffest)",530,8,522,1.5,3
+"torsional flexibility (1-5 scale, 5 being the stiffest)",530,3,527,0.6,1
+outsole hardness,530,2,528,0.4,2
+flexibility of the shoe (freezer 1 hour) (n),530,1,529,0.2,1
+"longitudinal flexibility (on a 0-5 scale, 0 being the stiffest)",530,1,529,0.2,1
+"torsional flexibility (on a 0-5 scale, 0 being the stiffest)",530,1,529,0.2,1
+agility and responsiveness,530,1,529,0.2,1
+fuelcell supercomp pacer v2,530,1,529,0.2,1

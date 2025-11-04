@@ -1,0 +1,930 @@
+Marca,Modelo,Aprovado_Pista,Aprovado_Saltos,Aprovado_Arremessos,Aprovado_Estrada_Marcha,Aprovado_Cross_Country,Tem_Data_Validade,Validade_Inicio,Validade_Fim,Nome_Original_Completo
+361 Degrees,Biospeed Future,True,True,True,True,True,False,,,Biospeed Future
+361 Degrees,Biospeed pro,False,False,False,True,True,False,,,Biospeed pro
+361 Degrees,Flame,False,False,False,True,True,False,,,Flame
+361 Degrees,Flame 2,False,False,False,True,True,False,,,Flame 2
+361 Degrees,FLAME 5,False,False,False,True,True,True,24 SEP 2025,23 SEP 2026,"FLAME 5
+VALID: 24 SEP 2025 - 23 SEP 2026"
+361 Degrees,FLAME 5 FUTURE,False,False,False,True,True,True,06 AUG 2025,05 AUG 2026,"FLAME 5 FUTURE
+VALID: 06 AUG 2025 - 05 AUG 2026"
+361 Degrees,Furious,False,False,False,True,True,False,,,Furious
+361 Degrees,Furious 2,False,False,False,True,True,False,,,Furious 2
+361 Degrees,Furious Future,False,False,False,True,True,False,,,Furious Future
+361 Degrees,Furious Future 2,False,False,False,True,True,False,,,Furious Future 2
+361 Degrees,mironude,False,False,False,True,True,False,,,mironude
+361 Degrees,MIRONUDE2,False,False,False,True,True,False,,,MIRONUDE2
+910 Nineten,Geist Ekiden Pro,False,False,False,True,True,True,19 MAR 2025,18 MAR 2026,"Geist Ekiden Pro
+VALID: 19 MAR 2025 - 18 MAR 2026"
+910 Nineten,Haze Pro,False,False,False,True,True,False,,,Haze Pro
+Adidas,Adizero Adios 3,False,False,False,True,True,False,,,Adizero Adios 3
+Adidas,Adizero Adios 4,False,False,False,True,True,False,,,Adizero Adios 4
+Adidas,Adizero Adios 5,False,False,False,True,True,False,,,Adizero Adios 5
+Adidas,Adizero Adios 6,False,False,False,True,True,False,,,Adizero Adios 6
+Adidas,Adizero Adios 8,False,False,False,True,True,False,,,Adizero Adios 8
+Adidas,Adizero Adios 9,False,False,False,True,True,False,,,Adizero Adios 9
+Adidas,Adizero Adios Pro,False,False,False,True,True,False,,,Adizero Adios Pro
+Adidas,Adizero Adios Pro 2,False,False,False,True,True,False,,,Adizero Adios Pro 2
+Adidas,Adizero Adios Pro 3,False,False,False,True,True,False,,,Adizero Adios Pro 3
+Adidas,Adizero Adios Pro 4,False,False,False,True,True,False,,,Adizero Adios Pro 4
+Adidas,Adizero Adios Pro Evo 1,False,False,False,True,True,False,,,Adizero Adios Pro Evo 1
+Adidas,Adizero Adios Pro Evo 1 v2,False,False,False,True,True,False,,,Adizero Adios Pro Evo 1 v2
+Adidas,Adizero Adios Pro Evo 2,False,False,False,True,True,False,,,Adizero Adios Pro Evo 2
+Adidas,ADIZERO ADIOS PRO EVO2 DEV,False,False,False,True,True,True,14 AUG 2025,13 AUG 2026,"ADIZERO ADIOS PRO EVO2 DEV
+VALID: 14 AUG 2025 - 13 AUG 2026"
+Adidas,Adizero Ambition,True,False,True,True,True,False,,,Adizero Ambition
+Adidas,Adizero Ambition 2,True,False,True,True,True,False,,,Adizero Ambition 2
+Adidas,Adizero Ambition 24,True,False,True,True,True,False,,,Adizero Ambition 24
+Adidas,Adizero Ambition Boost,True,False,True,True,True,False,,,Adizero Ambition Boost
+Adidas,Adizero Avanti,True,True,True,True,True,False,,,Adizero Avanti
+Adidas,Adizero Avanti 24,True,True,True,True,True,False,,,Adizero Avanti 24
+Adidas,Adizero Avanti Boost,True,True,True,True,True,False,,,Adizero Avanti Boost
+Adidas,Adizero Avanti LJ,True,True,True,True,True,False,,,Adizero Avanti LJ
+Adidas,ADIZERO AVANTI LJ DEV,True,True,True,True,True,True,23 MAY 2025,22 MAY 2026,"ADIZERO AVANTI LJ DEV
+VALID: 23 MAY 2025 - 22 MAY 2026"
+Adidas,Adizero Avanti TYO,True,True,True,True,True,False,,,Adizero Avanti TYO
+Adidas,ADIZERO AVANTI XC,True,True,True,True,True,False,,,ADIZERO AVANTI XC
+Adidas,Adizero Boston 10,False,False,False,True,True,False,,,Adizero Boston 10
+Adidas,Adizero Boston 8,False,False,False,True,True,False,,,Adizero Boston 8
+Adidas,Adizero Boston 9,False,False,False,True,True,False,,,Adizero Boston 9
+Adidas,Adizero Discus Hammer,True,True,True,True,True,False,,,Adizero Discus Hammer
+Adidas,Adizero Finesse,True,True,True,True,True,False,,,Adizero Finesse
+Adidas,Adizero Finesse 24,True,False,True,True,True,False,,,Adizero Finesse 24
+Adidas,Adizero High Jump,True,True,True,True,True,False,,,Adizero High Jump
+Adidas,Adizero HJ,True,True,True,True,True,False,,,Adizero HJ
+Adidas,Adizero HJ FL,True,True,True,True,True,False,,,Adizero HJ FL
+Adidas,Adizero Javelin,True,True,True,True,True,False,,,Adizero Javelin
+Adidas,Adizero Javelin (22),True,True,True,True,True,False,,,Adizero Javelin (22)
+Adidas,Adizero Javelin 24,True,True,True,True,True,False,,,Adizero Javelin 24
+Adidas,Adizero LJ,True,True,True,True,True,False,,,Adizero LJ
+Adidas,Adizero LJ (3),True,True,True,True,True,False,,,Adizero LJ (3)
+Adidas,Adizero Prime SP,True,False,True,True,True,False,,,Adizero Prime SP
+Adidas,Adizero Prime SP 3 Strung,True,False,True,True,True,False,,,Adizero Prime SP 3 Strung
+Adidas,ADIZERO PRIME SP 4,True,False,True,True,True,False,,,ADIZERO PRIME SP 4
+Adidas,Adizero Prime SP2,True,False,True,True,True,False,,,Adizero Prime SP2
+Adidas,Adizero Pro,False,False,False,True,True,False,,,Adizero Pro
+Adidas,Adizero RC 2,False,False,False,True,True,False,,,Adizero RC 2
+Adidas,Adizero Sub 2,False,False,False,True,True,False,,,Adizero Sub 2
+Adidas,Adizero Takumi Ren 3,False,False,False,True,True,False,,,Adizero Takumi Ren 3
+Adidas,Adizero Takumi Sen 10,False,False,False,True,True,False,,,Adizero Takumi Sen 10
+Adidas,Adizero Takumi Sen 11,False,False,False,True,True,False,,,Adizero Takumi Sen 11
+Adidas,Adizero Takumi Sen 5,False,False,False,True,True,False,,,Adizero Takumi Sen 5
+Adidas,Adizero Takumi Sen 6,False,False,False,True,True,False,,,Adizero Takumi Sen 6
+Adidas,Adizero Takumi Sen 7,False,False,False,True,True,False,,,Adizero Takumi Sen 7
+Adidas,Adizero Takumi Sen 8,False,False,False,True,True,False,,,Adizero Takumi Sen 8
+Adidas,Adizero Takumi Sen 9,False,False,False,True,True,False,,,Adizero Takumi Sen 9
+Adidas,Adizero Throws,True,True,True,True,True,False,,,Adizero Throws
+Adidas,Adizero TJ 2,True,True,True,True,True,False,,,Adizero TJ 2
+Adidas,ADIZERO TJ/PV (2),True,True,True,True,True,False,,,ADIZERO TJ/PV (2)
+Adidas,Adizero TJ/PV (with orange sockliner),True,True,True,True,True,False,,,Adizero TJ/PV (with orange sockliner)
+Adidas,Rio Adizero MD,True,True,True,True,True,False,,,Rio Adizero MD
+Adidas,Throwstar,True,True,True,True,True,False,,,Throwstar
+Altra Running,Vanish Carbon,False,False,False,True,True,False,,,Vanish Carbon
+Altra Running,Vanish Carbon 2,False,False,False,True,True,False,,,Vanish Carbon 2
+ANTA,C10 PRO,False,False,False,True,True,False,,,C10 PRO
+ANTA,C10 PRO 1.5,False,False,False,True,True,False,,,C10 PRO 1.5
+ANTA,C10 PRO 2,False,False,False,True,True,True,10 JAN 2025,09 JAN 2026,"C10 PRO 2
+VALID: 10 JAN 2025 - 09 JAN 2026"
+ANTA,C10 PRO 2 CSP,False,False,False,True,True,True,04 JUN 2025,03 JUN 2026,"C10 PRO 2 CSP
+VALID: 04 JUN 2025 - 03 JUN 2026"
+ANTA,C10 PRO 2 LCSP,False,False,False,True,True,True,16 JUN 2025,15 JUN 2026,"C10 PRO 2 LCSP
+VALID: 16 JUN 2025 - 15 JUN 2026"
+ANTA,C10 PRO 2.0,False,False,False,True,True,False,,,C10 PRO 2.0
+ANTA,C202 5 GT,False,False,False,True,True,False,,,C202 5 GT
+ANTA,C202 5 GT PRO,False,False,False,True,True,False,,,C202 5 GT PRO
+ANTA,C202 6,False,False,False,True,True,False,,,C202 6
+ANTA,C202 6 PRO,False,False,False,True,True,False,,,C202 6 PRO
+ANTA,C202 G9,False,False,False,True,True,False,,,C202 G9
+ANTA,C202 G9 2,False,False,False,True,True,False,,,C202 G9 2
+ANTA,Hai Lang,False,False,False,True,True,False,,,Hai Lang
+ANTA,TRACKEDGE LD,True,False,True,True,True,False,,,TRACKEDGE LD
+ANTA,TRACKEDGE SP -Dev,True,False,True,True,True,True,21 OCT 2025,20 OCT 2026,"TRACKEDGE SP -Dev
+VALID: 21 OCT 2025 - 20 OCT 2026"
+Asics,Cosmoracer LD 2,True,True,True,True,True,False,,,Cosmoracer LD 2
+Asics,Cosmoracer LD 3,True,True,True,True,True,False,,,Cosmoracer LD 3
+Asics,Cosmoracer MD 2,True,True,True,True,True,False,,,Cosmoracer MD 2
+Asics,COSMORACER MD 3,True,False,True,True,True,False,,,COSMORACER MD 3
+Asics,CYBER THROW LONDON,True,True,True,True,True,False,,,CYBER THROW LONDON
+Asics,Cyberblade 16,True,False,True,True,True,False,,,Cyberblade 16
+Asics,CYBERBLADE 17,True,False,True,True,True,False,,,CYBERBLADE 17
+Asics,Cyberblade HF,True,False,True,True,True,False,,,Cyberblade HF
+Asics,DSPURT FX,True,True,True,True,True,False,,,DSPURT FX
+Asics,Duo Japan,True,True,True,True,True,False,,,Duo Japan
+Asics,Effort 13,True,True,True,True,True,False,,,Effort 13
+Asics,Effort MK,True,True,True,True,True,False,,,Effort MK
+Asics,EvoRide,False,False,False,True,True,False,,,EvoRide
+Asics,FREAKS JAPAN,False,False,False,True,True,False,,,FREAKS JAPAN
+Asics,GEL-DS TRAINER 25,False,False,False,True,True,False,,,GEL-DS TRAINER 25
+Asics,GEL-FEATHER GLIDE 5,False,False,False,True,True,False,,,GEL-FEATHER GLIDE 5
+Asics,Gun Lap 2,True,True,True,True,True,False,,,Gun Lap 2
+Asics,Gun Lap 3,True,False,True,True,True,False,,,Gun Lap 3
+Asics,Heat Fly,True,True,True,True,True,False,,,Heat Fly
+Asics,HEAT FLY 2,True,True,True,True,True,False,,,HEAT FLY 2
+Asics,HEAT THROW,True,True,True,True,True,False,,,HEAT THROW
+Asics,HEAT THROW 2,True,True,True,True,True,False,,,HEAT THROW 2
+Asics,Heatflat 12,True,True,True,True,True,False,,,Heatflat 12
+Asics,Heatflat FR 7,True,True,True,True,True,False,,,Heatflat FR 7
+Asics,Heatsprint 13,True,True,True,True,True,False,,,Heatsprint 13
+Asics,Heatsprint FR 8,True,True,True,True,True,False,,,Heatsprint FR 8
+Asics,HI JUMP PRO (L),True,True,True,True,True,False,,,HI JUMP PRO (L)
+Asics,HI JUMP PRO (R),True,True,True,True,True,False,,,HI JUMP PRO (R)
+Asics,High Jump Pro 2 (L),True,True,True,True,True,False,,,High Jump Pro 2 (L)
+Asics,High Jump Pro 2 (R),True,True,True,True,True,False,,,High Jump Pro 2 (R)
+Asics,High Jump Pro 3 (L),True,True,True,True,True,False,,,High Jump Pro 3 (L)
+Asics,High Jump Pro 3 (R),True,True,True,True,True,False,,,High Jump Pro 3 (R)
+Asics,HT-JAPAN,True,True,True,True,True,False,,,HT-JAPAN
+Asics,Hyper LD 6,True,True,True,True,True,False,,,Hyper LD 6
+Asics,Hyper MD 7,True,True,True,True,True,False,,,Hyper MD 7
+Asics,Hyper MD 8,True,True,True,True,True,False,,,Hyper MD 8
+Asics,HYPER RACER,True,True,True,True,True,False,,,HYPER RACER
+Asics,HYPER SPEED,False,False,False,True,True,False,,,HYPER SPEED
+Asics,HYPER SPEED 2,False,False,False,True,True,False,,,HYPER SPEED 2
+Asics,HYPER SPEED 3,False,False,False,True,True,False,,,HYPER SPEED 3
+Asics,HYPER SPEED 4,False,False,False,True,True,False,,,HYPER SPEED 4
+Asics,Hyper Throw 3,True,True,True,True,True,False,,,Hyper Throw 3
+Asics,Hypersprint 7,True,True,True,True,True,False,,,Hypersprint 7
+Asics,Hypersprint 8,True,True,True,True,True,False,,,Hypersprint 8
+Asics,Japan Arch,True,True,True,True,True,False,,,Japan Arch
+Asics,JAPAN-AR,True,True,True,True,True,False,,,JAPAN-AR
+Asics,Javelin Pro 2,True,True,True,True,True,False,,,Javelin Pro 2
+Asics,Javelin Pro 3,True,True,True,True,True,False,,,Javelin Pro 3
+Asics,Javelin Pro 4,True,True,True,True,True,False,,,Javelin Pro 4
+Asics,JETSPRINT,True,True,True,True,True,False,,,JETSPRINT
+Asics,JETSPRINT (KY),True,True,True,True,True,False,,,JETSPRINT (KY)
+Asics,JETSPRINT 2,True,True,True,True,True,False,,,JETSPRINT 2
+Asics,JETSPRINT 3,True,True,True,True,True,False,,,JETSPRINT 3
+Asics,Long Jump Pro,True,True,True,True,True,False,,,Long Jump Pro
+Asics,Long Jump Pro 2,True,False,True,True,True,False,,,Long Jump Pro 2
+Asics,Long Jump Pro 3,True,True,True,True,True,False,,,Long Jump Pro 3
+Asics,LYTERACER 2,False,False,False,True,True,False,,,LYTERACER 2
+Asics,MAGIC SPEED,False,False,False,True,True,False,,,MAGIC SPEED
+Asics,MAGIC SPEED 2,False,False,False,True,True,False,,,MAGIC SPEED 2
+Asics,MAGIC SPEED 3,False,False,False,True,True,False,,,MAGIC SPEED 3
+Asics,MAGICSPEED 3,False,False,False,True,True,False,,,MAGICSPEED 3
+Asics,MARATHON EO JAPAN,False,False,False,True,True,False,,,MARATHON EO JAPAN
+Asics,MARATHON EO RP,False,False,False,True,True,False,,,MARATHON EO RP
+Asics,MARATHON EO SEIHA,False,False,False,True,True,False,,,MARATHON EO SEIHA
+Asics,ME5 TYPE-1,False,False,False,True,True,True,27 OCT 2025,26 OCT 2026,"ME5 TYPE-1
+VALID: 27 OCT 2025 - 26 OCT 2026"
+Asics,METARACER,False,False,False,True,True,False,,,METARACER
+Asics,METASPEED EDGE,False,False,False,True,True,False,,,METASPEED EDGE
+Asics,METASPEED EDGE PARIS,False,False,False,True,True,False,,,METASPEED EDGE PARIS
+Asics,METASPEED EDGE TOKYO,False,False,False,True,True,False,,,METASPEED EDGE TOKYO
+Asics,METASPEED EDGE+,False,False,False,True,True,False,,,METASPEED EDGE+
+Asics,Metaspeed LD 1.5,True,True,True,True,True,False,,,Metaspeed LD 1.5
+Asics,METASPEED LD 2,True,True,True,True,True,False,,,METASPEED LD 2
+Asics,METASPEED LD 2 F,True,True,True,True,True,False,,,METASPEED LD 2 F
+Asics,METASPEED LD LE 2,True,True,True,True,True,False,,,METASPEED LD LE 2
+Asics,Metaspeed MD,True,True,True,True,True,False,,,Metaspeed MD
+Asics,METASPEED RAY,False,False,False,True,True,False,,,METASPEED RAY
+Asics,METASPEED RW,False,False,False,True,True,False,,,METASPEED RW
+Asics,METASPEED SKY,False,False,False,True,True,False,,,METASPEED SKY
+Asics,METASPEED SKY PARIS,False,False,False,True,True,False,,,METASPEED SKY PARIS
+Asics,METASPEED SKY TOKYO,False,False,False,True,True,False,,,METASPEED SKY TOKYO
+Asics,METASPEED SKY+,False,False,False,True,True,False,,,METASPEED SKY+
+Asics,Metaspeed SP,True,False,True,True,True,False,,,Metaspeed SP
+Asics,Metaspeed SP 0,True,False,True,True,True,False,,,Metaspeed SP 0
+Asics,Metaspeed SP 1.5,True,False,True,True,True,False,,,Metaspeed SP 1.5
+Asics,METASPEED SP 1.5 F,True,False,True,True,True,False,,,METASPEED SP 1.5 F
+Asics,Metaspeed SP 2,True,False,True,True,True,False,,,Metaspeed SP 2
+Asics,Metaspeed SP LE,True,False,True,True,True,False,,,Metaspeed SP LE
+Asics,Metaspeed SP2 F,True,False,True,True,True,False,,,Metaspeed SP2 F
+Asics,Metasprint Tokyo,True,True,True,True,True,False,,,Metasprint Tokyo
+Asics,MR2 TYPE-1,False,False,False,True,True,True,27 OCT 2025,26 OCT 2026,"MR2 TYPE-1
+VALID: 27 OCT 2025 - 26 OCT 2026"
+Asics,MS LD LE 2,True,True,True,True,True,True,10 FEB 2025,09 FEB 2026,"MS LD LE 2
+VALID: 10 FEB 2025 - 09 FEB 2026"
+Asics,MS SP2 F,True,False,True,True,True,True,10 FEB 2025,09 FEB 2026,"MS SP2 F
+VALID: 10 FEB 2025 - 09 FEB 2026"
+Asics,MS5 TYPE-1,False,False,False,True,True,True,27 OCT 2025,26 OCT 2026,"MS5 TYPE-1
+VALID: 27 OCT 2025 - 26 OCT 2026"
+Asics,MX TYPE-A,False,False,False,True,True,True,09 SEP 2025,08 SEP 2026,"MX TYPE-A
+VALID: 09 SEP 2025 - 08 SEP 2026"
+Asics,MX TYPE-B,False,False,False,True,True,True,09 SEP 2025,08 SEP 2026,"MX TYPE-B
+VALID: 09 SEP 2025 - 08 SEP 2026"
+Asics,S4,False,False,False,True,True,False,,,S4
+Asics,SD-Japan,True,True,True,True,True,False,,,SD-Japan
+Asics,SKYSENSOR JAPAN,False,False,False,True,True,False,,,SKYSENSOR JAPAN
+Asics,Sonic Sky Pro,True,True,True,True,True,False,,,Sonic Sky Pro
+Asics,Sonicsprint Elite,True,False,True,True,True,False,,,Sonicsprint Elite
+Asics,Sonicsprint Elite 2,True,False,True,True,True,False,,,Sonicsprint Elite 2
+Asics,Sonicsprint Elite 3,True,False,True,True,True,False,,,Sonicsprint Elite 3
+Asics,SORTIE JAPAN,False,False,False,True,True,False,,,SORTIE JAPAN
+Asics,SORTIE JAPANSEIHA 2,False,False,False,True,True,False,,,SORTIE JAPANSEIHA 2
+Asics,SORTIEMAGIC LT,False,False,False,True,True,False,,,SORTIEMAGIC LT
+Asics,SORTIEMAGIC LT 2,False,False,False,True,True,False,,,SORTIEMAGIC LT 2
+Asics,SORTIEMAGIC LT 2 TENKA,False,False,False,True,True,False,,,SORTIEMAGIC LT 2 TENKA
+Asics,SORTIEMAGIC RP 5,False,False,False,True,True,False,,,SORTIEMAGIC RP 5
+Asics,SORTIEMAGIC RP 5 TENKA,False,False,False,True,True,False,,,SORTIEMAGIC RP 5 TENKA
+Asics,SORTIEMAGIC RP 6,False,False,False,True,True,False,,,SORTIEMAGIC RP 6
+Asics,SP BLADE 10,True,False,True,True,True,False,,,SP BLADE 10
+Asics,SP Blade 9,True,False,True,True,True,False,,,SP Blade 9
+Asics,SP Blade SF 2,True,False,True,True,True,False,,,SP Blade SF 2
+Asics,TARTHER JAPAN,False,False,False,True,True,False,,,TARTHER JAPAN
+Asics,TARTHER RP,False,False,False,True,True,False,,,TARTHER RP
+Asics,TARTHER RP 3,False,False,False,True,True,False,,,TARTHER RP 3
+Asics,TARTHEREDGE 2,False,False,False,True,True,False,,,TARTHEREDGE 2
+Asics,TARTHEREDGE 3,False,False,False,True,True,False,,,TARTHEREDGE 3
+Asics,TARTHERZEAL 6,False,False,False,True,True,False,,,TARTHERZEAL 6
+Asics,TF Spike SO (BD),True,False,True,True,True,False,,,TF Spike SO (BD)
+Asics,TF Spike SO (JP),True,True,True,True,True,False,,,TF Spike SO (JP)
+Asics,TF Spike SO (RY),True,False,True,True,True,False,,,TF Spike SO (RY)
+Asics,Throw Pro 2,True,True,True,True,True,False,,,Throw Pro 2
+Asics,Throw Pro 3,True,True,True,True,True,False,,,Throw Pro 3
+Asics,Triple Jump Pro,True,True,True,True,True,False,,,Triple Jump Pro
+Asics,Triple Jump Pro 2,True,True,True,True,True,False,,,Triple Jump Pro 2
+Asics,Windsprint 2,True,True,True,True,True,False,,,Windsprint 2
+Asics,Windsprint 3,True,True,True,True,True,False,,,Windsprint 3
+Atreyu,The Artist,False,False,False,True,True,False,,,The Artist
+Beijing BMAI Sports Goods,BMAI CARBON 2.0,False,False,False,True,True,False,,,BMAI CARBON 2.0
+Beijing BMAI Sports Goods,BMAI Carbon 3.0,False,False,False,True,True,False,,,BMAI Carbon 3.0
+Beijing BMAI Sports Goods,BMAI Carbon 3.0 Turbo,False,False,False,True,True,False,,,BMAI Carbon 3.0 Turbo
+Beijing BMAI Sports Goods,BMAI CARBON FLY,False,False,False,True,True,False,,,BMAI CARBON FLY
+Brooks,Draft XC,True,True,True,True,True,False,,,Draft XC
+Brooks,ELMN8 5,True,True,True,True,True,False,,,ELMN8 5
+Brooks,ELMN8 6,True,True,True,True,True,False,,,ELMN8 6
+Brooks,ELMN8 7-R2,True,True,True,True,True,False,,,ELMN8 7-R2
+Brooks,Hyperion 2,False,False,False,True,True,False,,,Hyperion 2
+Brooks,Hyperion Elite 2,False,False,False,True,True,False,,,Hyperion Elite 2
+Brooks,Hyperion Elite 3,False,False,False,True,True,False,,,Hyperion Elite 3
+Brooks,Hyperion Elite 4,False,False,False,True,True,False,,,Hyperion Elite 4
+Brooks,Hyperion Elite 4 PB,False,False,False,True,True,False,,,Hyperion Elite 4 PB
+Brooks,Hyperion Elite 5,False,False,False,True,True,False,,,Hyperion Elite 5
+Brooks,Hyperion Elite 6 R1,False,False,False,True,True,True,22 APR 2025,21 APR 2026,"Hyperion Elite 6 R1
+VALID: 22 APR 2025 - 21 APR 2026"
+Brooks,Hyperion Elite LD,True,True,True,True,True,False,,,Hyperion Elite LD
+Brooks,Hyperion Elite LD 2,True,False,True,True,True,False,,,Hyperion Elite LD 2
+Brooks,Hyperion Elite LD 2 R1,True,True,True,True,True,True,01 FEB 2025,31 JAN 2026,"Hyperion Elite LD 2 R1
+VALID: 01 FEB 2025 - 31 JAN 2026"
+Brooks,Hyperion Elite LD 2 R2,True,False,True,True,True,True,21 MAY 2025,20 MAY 2026,"Hyperion Elite LD 2 R2
+VALID: 21 MAY 2025 - 20 MAY 2026"
+Brooks,Hyperion Elite MD,True,True,True,True,True,False,,,Hyperion Elite MD
+Brooks,Hyperion Elite MD 2,True,True,True,True,True,False,,,Hyperion Elite MD 2
+Brooks,Hyperion Elite MD 2 R1,True,True,True,True,True,True,01 FEB 2025,31 JAN 2026,"Hyperion Elite MD 2 R1
+VALID: 01 FEB 2025 - 31 JAN 2026"
+Brooks,Hyperion Elite MD 2 R2,True,True,True,True,True,True,13 JUN 2025,12 JUN 2026,"Hyperion Elite MD 2 R2
+VALID: 13 JUN 2025 - 12 JUN 2026"
+Brooks,Hyperion Tempo 1,False,False,False,True,True,False,,,Hyperion Tempo 1
+Brooks,WIRE 6,True,False,True,True,True,False,,,WIRE 6
+Craft Sportswear,Kype Pro,False,False,False,True,True,False,,,Kype Pro
+Craft Sportswear,Nordlite Speed,False,False,False,True,True,False,,,Nordlite Speed
+Decathlon/Kalenji,Kiprun Ultralight,True,True,True,True,True,False,,,Kiprun Ultralight
+Decathlon/Kiprun,AT LONG,True,True,True,True,True,False,,,AT LONG
+Decathlon/Kiprun,KD 500 2,False,False,False,True,True,False,,,KD 500 2
+Decathlon/Kiprun,KD 800,False,False,False,True,True,False,,,KD 800
+Decathlon/Kiprun,KD900,False,False,False,True,True,False,,,KD900
+Decathlon/Kiprun,KD900LIGHT,False,False,False,True,True,False,,,KD900LIGHT
+Decathlon/Kiprun,KD900X,False,False,False,True,True,False,,,KD900X
+Decathlon/Kiprun,KD900X LD,False,False,False,True,True,False,,,KD900X LD
+Decathlon/Kiprun,KIPRUN AT LONG,True,True,True,True,True,False,,,KIPRUN AT LONG
+Descente,DELTA PRO ELITE,False,False,False,True,True,False,,,DELTA PRO ELITE
+Descente,DELTA PRO LITE,False,False,False,True,True,False,,,DELTA PRO LITE
+Descente,DELTA PRO RACE,False,False,False,True,True,False,,,DELTA PRO RACE
+Descente,DELTA PRO TEMPO,False,False,False,True,True,False,,,DELTA PRO TEMPO
+Descente,Delta TRI OP,True,True,True,True,True,False,,,Delta TRI OP
+Descente,DELTAPRO AERO SPRINT,True,False,True,True,True,False,,,DELTAPRO AERO SPRINT
+Descente,DELTAPRO EXP V3,False,False,False,True,True,False,,,DELTAPRO EXP V3
+Descente,Genten RC,True,True,True,True,True,False,,,Genten RC
+Descente,Genten RC+,True,True,True,True,True,False,,,Genten RC+
+Descente,Genten-EL,True,True,True,True,True,False,,,Genten-EL
+Descente,Genten-EL+,True,True,True,True,True,False,,,Genten-EL+
+Descente,Genten-ST,False,False,False,True,True,False,,,Genten-ST
+Descente,V-Lite,True,True,True,True,True,False,,,V-Lite
+Descente (China),Thunder,False,False,False,True,True,True,16 DEC 2024,15 DEC 2025,"Thunder
+VALID: 16 DEC 2024 - 15 DEC 2025"
+Diadora,Equipe Corsa,False,False,False,True,True,False,,,Equipe Corsa
+Diadora,Gara Carbon,False,False,False,True,True,False,,,Gara Carbon
+Diadora,GCPR26,False,False,False,True,True,True,14 APR 2025,13 APR 2026,"GCPR26
+VALID: 14 APR 2025 - 13 APR 2026"
+Diadora,Lungo Carbon W,True,True,True,True,True,False,,,Lungo Carbon W
+Diadora,MFPR25,True,False,True,True,True,True,24 FEB 2025,23 FEB 2026,"MFPR25
+VALID: 24 FEB 2025 - 23 FEB 2026"
+Diadora,Velocita Carbon,True,False,True,True,True,False,,,Velocita Carbon
+Dynafish,Danian 1.0,False,False,False,True,True,False,,,Danian 1.0
+Ena Athletics Single Member SA,Proto Runner 1.0,False,False,False,True,True,False,,,Proto Runner 1.0
+ERKE,Infinite 1.0,False,False,False,True,True,False,,,Infinite 1.0
+ERKE,INFINITE 4,False,False,False,True,True,True,24 SEP 2025,23 SEP 2026,"INFINITE 4
+VALID: 24 SEP 2025 - 23 SEP 2026"
+ERKE,INFINITE2.0,False,False,False,True,True,False,,,INFINITE2.0
+ERKE,INFINITE3.0,False,False,False,True,True,True,26 FEB 2025,25 FEB 2026,"INFINITE3.0
+VALID: 26 FEB 2025 - 25 FEB 2026"
+Feet2 Oy,Distance,False,False,False,True,True,False,,,Distance
+Feet2 Oy,Evo+,False,False,False,True,True,False,,,Evo+
+Feet2 Oy,Evo+ Light,False,False,False,True,True,False,,,Evo+ Light
+Feet2 Oy,Racer,False,False,False,True,True,False,,,Racer
+Feet2 Oy,Racer+,False,False,False,True,True,False,,,Racer+
+Feet2 Oy,Trail,False,False,False,True,True,False,,,Trail
+Feet2 Oy,Trail+,False,False,False,True,True,False,,,Trail+
+Fila,Float Maxxi 2 Pro,False,False,False,True,True,False,,,Float Maxxi 2 Pro
+Gruppo Dass/Fila,F2507V2,False,False,False,True,True,True,05 FEB 2025,04 FEB 2026,"F2507V2
+VALID: 05 FEB 2025 - 04 FEB 2026"
+Gruppo Dass/Fila,Fila KR6,False,False,False,True,True,False,,,Fila KR6
+Gruppo Dass/Fila,Float Maxxi Light,False,False,False,True,True,False,,,Float Maxxi Light
+Gruppo Dass/Fila,RACER CARBON 2.0,False,False,False,True,True,False,,,RACER CARBON 2.0
+Gruppo Dass/Fila,Racer Carbon 3,False,False,False,True,True,False,,,Racer Carbon 3
+Gruppo Dass/Fila,RACER CARBON TRI,False,False,False,True,True,False,,,RACER CARBON TRI
+Health/HiRacer,CP5,True,False,True,True,True,False,,,CP5
+Health/HiRacer,HIWINGS,False,False,False,True,True,False,,,HIWINGS
+HokaONeOne,Bondi 7,False,False,False,True,True,False,,,Bondi 7
+HokaONeOne,Carbon X,False,False,False,True,True,False,,,Carbon X
+HokaONeOne,Carbon X2,False,False,False,True,True,False,,,Carbon X2
+HokaONeOne,Carbon X3,False,False,False,True,True,False,,,Carbon X3
+HokaONeOne,Cielo Fly X Elite,True,False,True,True,True,False,,,Cielo Fly X Elite
+HokaONeOne,Cielo Fly X Lite,True,True,True,True,True,False,,,Cielo Fly X Lite
+HokaONeOne,Cielo Fly X Lite,True,True,True,True,True,True,18 JUL 2025,17 JUL 2026,"Cielo Fly X Lite
+VALID: 18 JUL 2025 - 17 JUL 2026"
+HokaONeOne,Cielo FLYX Elite,True,True,True,True,True,True,30 JAN 2025,29 JAN 2026,"Cielo FLYX Elite
+VALID: 30 JAN 2025 - 29 JAN 2026"
+HokaONeOne,Cielo LD,True,True,True,True,True,False,,,Cielo LD
+HokaONeOne,Cielo MD,True,True,True,True,True,False,,,Cielo MD
+HokaONeOne,Cielo Road,False,False,False,True,True,False,,,Cielo Road
+HokaONeOne,Cielo X 2 MD,True,True,True,True,True,False,,,Cielo X 2 MD
+HokaONeOne,Cielo X1,False,False,False,True,True,False,,,Cielo X1
+HokaONeOne,Cielo X1 2.0,False,False,False,True,True,False,,,Cielo X1 2.0
+HokaONeOne,Cielo X1 3.0,False,False,False,True,True,True,03 OCT 2025,02 OCT 2026,"Cielo X1 3.0
+VALID: 03 OCT 2025 - 02 OCT 2026"
+HokaONeOne,Clifton 7,False,False,False,True,True,False,,,Clifton 7
+HokaONeOne,Evo Carbon Rocket,False,False,False,True,True,False,,,Evo Carbon Rocket
+HokaONeOne,Evo Rehi,True,True,True,True,True,False,,,Evo Rehi
+HokaONeOne,HOKA CLIFTON 10,False,False,False,True,True,False,,,HOKA CLIFTON 10
+HokaONeOne,Mach 3,True,True,True,True,True,False,,,Mach 3
+HokaONeOne,Mach 4,False,False,False,True,True,False,,,Mach 4
+HokaONeOne,Rincon 2,False,False,False,True,True,False,,,Rincon 2
+HokaONeOne,Rincon 3,False,False,False,True,True,False,,,Rincon 3
+HokaONeOne,Rocket LD,True,False,True,True,True,False,,,Rocket LD
+HokaONeOne,Rocket MD,True,False,True,True,True,False,,,Rocket MD
+HokaONeOne,Rocket X,False,False,False,True,True,False,,,Rocket X
+HokaONeOne,Rocket X 3,False,False,False,True,True,False,,,Rocket X 3
+HokaONeOne,Rocket X2,False,False,False,True,True,False,,,Rocket X2
+HokaONeOne,Speed Evo R,True,True,True,True,True,False,,,Speed Evo R
+HokaONeOne,Tracer 2,True,True,True,True,True,False,,,Tracer 2
+"Jiangsu Do-win Sports Goods Co., Ltd",Speedster 3,False,False,False,True,True,False,,,Speedster 3
+Joma,R.3000,False,False,False,True,True,False,,,R.3000
+Joma,R.4000,False,False,False,True,True,False,,,R.4000
+Joma,R.5000,False,False,False,True,True,False,,,R.5000
+Joma,R1000,False,False,False,True,True,False,,,R1000
+Joma,R1100,True,False,True,True,True,False,,,R1100
+Joma,R1200 V2,True,True,True,True,True,False,,,R1200 V2
+Joma,R3000 V2,False,False,False,True,True,False,,,R3000 V2
+Joma,R5000,False,False,False,True,True,False,,,R5000
+Joma,R9000,False,False,False,True,True,True,26 FEB 2025,25 FEB 2026,"R9000
+VALID: 26 FEB 2025 - 25 FEB 2026"
+Joma,RS9000,False,False,False,True,True,False,,,RS9000
+KIPRUN,AT MID,True,False,True,True,True,True,12 MAR 2025,11 MAR 2026,"AT MID
+VALID: 12 MAR 2025 - 11 MAR 2026"
+KIPRUN,AT X-COUNTRY,True,True,True,True,True,True,04 DEC 2024,03 DEC 2025,"AT X-COUNTRY
+VALID: 04 DEC 2024 - 03 DEC 2025"
+KIPRUN,KD900X.2,False,False,False,True,True,False,,,KD900X.2
+KIPRUN,KD900XLD.2,False,False,False,True,True,False,,,KD900XLD.2
+KIPRUN,KD900XLD+,False,False,False,True,True,False,,,KD900XLD+
+KIPRUN,KDIIII,False,False,False,True,True,True,27 FEB 2025,26 FEB 2026,"KDIIII
+VALID: 27 FEB 2025 - 26 FEB 2026"
+KIPRUN,KIPSTORM LAB,False,False,False,True,True,False,,,KIPSTORM LAB
+Li-Ning,FeiDian,False,False,False,True,True,False,,,FeiDian
+Li-Ning,FeiDian 2.0,False,False,False,True,True,False,,,FeiDian 2.0
+Li-Ning,FeiDian 2.0 Elite,False,False,False,True,True,False,,,FeiDian 2.0 Elite
+Li-Ning,FeiDian 3 Ultra,False,False,False,True,True,False,,,FeiDian 3 Ultra
+Li-Ning,FEIDIAN 4 CHALLENGER,False,False,False,True,True,False,,,FEIDIAN 4 CHALLENGER
+Li-Ning,FEIDIAN 4 ELITE,False,False,False,True,True,False,,,FEIDIAN 4 ELITE
+Li-Ning,FeiDian 4 Ultra,False,False,False,True,True,False,,,FeiDian 4 Ultra
+Li-Ning,FEIDIAN 5 CHALLENGER,False,False,False,True,True,False,,,FEIDIAN 5 CHALLENGER
+Li-Ning,FEIDIAN 5 ELITE,False,False,False,True,True,False,,,FEIDIAN 5 ELITE
+Li-Ning,FEIDIAN 6 CHALLENGER,False,False,False,True,True,True,03 SEP 2025,02 SEP 2026,"FEIDIAN 6 CHALLENGER
+VALID: 03 SEP 2025 - 02 SEP 2026"
+Li-Ning,FEIDIAN 6 ELITE,False,False,False,True,True,False,,,FEIDIAN 6 ELITE
+Li-Ning,FeiDian Challenger,False,False,False,True,True,False,,,FeiDian Challenger
+Li-Ning,Spike-sample-1,True,False,True,True,True,True,03 JUL 2025,02 JUL 2026,"Spike-sample-1
+VALID: 03 JUL 2025 - 02 JUL 2026"
+Li-Ning,Spike-sample-2,True,True,True,True,True,True,14 JUL 2025,13 JUL 2026,"Spike-sample-2
+VALID: 14 JUL 2025 - 13 JUL 2026"
+Li-Ning,Sprint-Spikes,True,False,True,True,True,True,06 AUG 2025,05 AUG 2026,"Sprint-Spikes
+VALID: 06 AUG 2025 - 05 AUG 2026"
+Li-Ning,ZHUIFENG 4,True,True,True,True,True,False,,,ZHUIFENG 4
+Li-Ning,ZHUIFENG 6,True,True,True,True,True,False,,,ZHUIFENG 6
+Lululemon,W Beyondfeel Run,False,False,False,True,True,False,,,W Beyondfeel Run
+Lululemon,W Blissfeel Trail Run,False,False,False,True,True,False,,,W Blissfeel Trail Run
+Macondo,Macondo Center,False,False,False,True,True,False,,,Macondo Center
+Mizuno,ALL JUMP PRO SO1,True,True,True,True,True,False,,,ALL JUMP PRO SO1
+Mizuno,Brave Wing FX,True,True,True,True,True,False,,,Brave Wing FX
+Mizuno,Break Sprint,True,True,True,True,True,False,,,Break Sprint
+Mizuno,Chrono Break,True,True,True,True,True,False,,,Chrono Break
+Mizuno,Chrono Break SO1,True,True,True,True,True,False,,,Chrono Break SO1
+Mizuno,Chrono Break_SO2,True,True,True,True,True,False,,,Chrono Break_SO2
+Mizuno,Chrono Dist 7,True,True,True,True,True,False,,,Chrono Dist 7
+Mizuno,CHRONO DIST NEO,True,False,True,True,True,False,,,CHRONO DIST NEO
+Mizuno,CHRONO INX JAPAN,True,True,True,True,True,False,,,CHRONO INX JAPAN
+Mizuno,CHRONO INX NEO,True,False,True,True,True,False,,,CHRONO INX NEO
+Mizuno,CHRONO INX NEO JAPAN,True,False,True,True,True,False,,,CHRONO INX NEO JAPAN
+Mizuno,Chrono INX9,True,True,True,True,True,False,,,Chrono INX9
+Mizuno,Chrono INX9 SO1,True,True,True,True,True,False,,,Chrono INX9 SO1
+Mizuno,Chrono INX9 SO2,True,True,True,True,True,False,,,Chrono INX9 SO2
+Mizuno,Chrono INX9 SO3,True,True,True,True,True,False,,,Chrono INX9 SO3
+Mizuno,Chrono INX9 SO4,True,False,True,True,True,False,,,Chrono INX9 SO4
+Mizuno,Chrono Onyx 2,True,True,True,True,True,False,,,Chrono Onyx 2
+Mizuno,Citius Wing Fx,True,True,True,True,True,False,,,Citius Wing Fx
+Mizuno,DEV-CINJP,True,False,True,True,True,True,06 MAY 2025,05 MAY 2026,"DEV-CINJP
+VALID: 06 MAY 2025 - 05 MAY 2026"
+Mizuno,DEV-HWE,False,False,False,True,True,True,06 AUG 2025,05 AUG 2026,"DEV-HWE
+VALID: 06 AUG 2025 - 05 AUG 2026"
+Mizuno,DEV-HWP,False,False,False,True,True,True,02 SEP 2025,01 SEP 2026,"DEV-HWP
+VALID: 02 SEP 2025 - 01 SEP 2026"
+Mizuno,DEV-HWPR,False,False,False,True,True,True,06 AUG 2025,05 AUG 2026,"DEV-HWPR
+VALID: 06 AUG 2025 - 05 AUG 2026"
+Mizuno,DEV-WRE,False,False,False,True,True,True,19 FEB 2025,18 FEB 2026,"DEV-WRE
+VALID: 19 FEB 2025 - 18 FEB 2026"
+Mizuno,DEV-WRP,False,False,False,True,True,True,06 MAY 2025,05 MAY 2026,"DEV-WRP
+VALID: 06 MAY 2025 - 05 MAY 2026"
+Mizuno,DEV-WRZ,False,False,False,True,True,True,19 FEB 2025,18 FEB 2026,"DEV-WRZ
+VALID: 19 FEB 2025 - 18 FEB 2026"
+Mizuno,DIST Special,True,True,True,True,True,False,,,DIST Special
+Mizuno,Duel Flash,True,False,True,True,True,False,,,Duel Flash
+Mizuno,DUEL FLASH 2 / WIDE,True,False,True,True,True,False,,,DUEL FLASH 2 / WIDE
+Mizuno,Duel Sonic,False,False,False,True,True,False,,,Duel Sonic
+Mizuno,Duel Sonic 3,False,False,False,True,True,False,,,Duel Sonic 3
+Mizuno,DUEL SONIC 4 / WIDE,True,True,True,True,True,False,,,DUEL SONIC 4 / WIDE
+Mizuno,Ekiden Spirit,True,True,True,True,True,False,,,Ekiden Spirit
+Mizuno,Field Geo AJ-C,True,True,True,True,True,False,,,Field Geo AJ-C
+Mizuno,Field Geo FT,True,True,True,True,True,False,,,Field Geo FT
+Mizuno,Field Geo HJ,True,True,True,True,True,False,,,Field Geo HJ
+Mizuno,Field Geo HJ SO1,True,True,True,True,True,False,,,Field Geo HJ SO1
+Mizuno,Field Geo HJ-C,True,True,True,True,True,False,,,Field Geo HJ-C
+Mizuno,Field Geo JT,True,False,True,True,True,False,,,Field Geo JT
+Mizuno,Field Geo JT So1,True,False,True,True,True,False,,,Field Geo JT So1
+Mizuno,Field Geo JT-C,True,True,True,True,True,False,,,Field Geo JT-C
+Mizuno,Field Geo LJ,True,True,True,True,True,False,,,Field Geo LJ
+Mizuno,Field Geo LJ SO2,True,True,True,True,True,False,,,Field Geo LJ SO2
+Mizuno,Field Geo LJ SO3,True,True,True,True,True,False,,,Field Geo LJ SO3
+Mizuno,Field Geo LJ-C,True,True,True,True,True,False,,,Field Geo LJ-C
+Mizuno,Field Geo RD So1,True,True,True,True,True,False,,,Field Geo RD So1
+Mizuno,Field Geo RD-C,True,True,True,True,True,False,,,Field Geo RD-C
+Mizuno,Field Geo Th,True,True,True,True,True,False,,,Field Geo Th
+Mizuno,Geo Cyclone,True,True,True,True,True,False,,,Geo Cyclone
+Mizuno,Geo Silencer Fx,True,True,True,True,True,False,,,Geo Silencer Fx
+Mizuno,Geo Sprint 4,True,True,True,True,True,False,,,Geo Sprint 4
+Mizuno,Geo Spurt Md,True,True,True,True,True,False,,,Geo Spurt Md
+Mizuno,Geo Versus Fx,True,True,True,True,True,False,,,Geo Versus Fx
+Mizuno,HIGH JUMP PRO SO2,True,True,True,True,True,False,,,HIGH JUMP PRO SO2
+Mizuno,INX Break,True,True,True,True,True,False,,,INX Break
+Mizuno,INX Silencer,True,True,True,True,True,False,,,INX Silencer
+Mizuno,INX Sniper,True,True,True,True,True,False,,,INX Sniper
+Mizuno,INX Sprint,True,True,True,True,True,False,,,INX Sprint
+Mizuno,JAVELIN THROW PRO SO5,True,True,True,True,True,False,,,JAVELIN THROW PRO SO5
+Mizuno,JAVELIN THROW PRO SO6,True,True,True,True,True,False,,,JAVELIN THROW PRO SO6
+Mizuno,JAVELIN THROW PRO SO7,True,True,True,True,True,False,,,JAVELIN THROW PRO SO7
+Mizuno,JAVELIN THROW PRO SO8,True,True,True,True,True,False,,,JAVELIN THROW PRO SO8
+Mizuno,Javelin Throw Pro1 So1,True,True,True,True,True,False,,,Javelin Throw Pro1 So1
+Mizuno,Javelin Throw Pro2 So2,True,False,True,True,True,False,,,Javelin Throw Pro2 So2
+Mizuno,Javelin Throw Pro3 So3,True,True,True,True,True,False,,,Javelin Throw Pro3 So3
+Mizuno,Javelin Throw Pro4 So4,True,False,True,True,True,False,,,Javelin Throw Pro4 So4
+Mizuno,LONG JUMP PRO SO4,True,True,True,True,True,False,,,LONG JUMP PRO SO4
+Mizuno,LONG JUMP PRO SO5,True,True,True,True,True,False,,,LONG JUMP PRO SO5
+Mizuno,LONG JUMP PRO SO6,True,True,True,True,True,False,,,LONG JUMP PRO SO6
+Mizuno,Long Jump Pro1 SO1,True,True,True,True,True,False,,,Long Jump Pro1 SO1
+Mizuno,Spectra Type A,True,True,True,True,True,False,,,Spectra Type A
+Mizuno,Spectra Type B (21SS Type B),True,True,True,True,True,False,,,Spectra Type B (21SS Type B)
+Mizuno,Spectra Type C,True,True,True,True,True,False,,,Spectra Type C
+Mizuno,Spectra Type D,True,True,True,True,True,False,,,Spectra Type D
+Mizuno,Spectra Type E,True,True,True,True,True,False,,,Spectra Type E
+Mizuno,Spectra Type F,True,True,True,True,True,False,,,Spectra Type F
+Mizuno,Spectra Type A So1,True,True,True,True,True,False,,,Spectra Type A So1
+Mizuno,Spectra Type E So1,True,True,True,True,True,False,,,Spectra Type E So1
+Mizuno,SPRINT PRO SO1,True,False,True,True,True,False,,,SPRINT PRO SO1
+Mizuno,SPRINT PRO SO2,True,False,True,True,True,False,,,SPRINT PRO SO2
+Mizuno,SPRINT PRO SO3,True,False,True,True,True,False,,,SPRINT PRO SO3
+Mizuno,Sprint Pro Type A,True,True,True,True,True,False,,,Sprint Pro Type A
+Mizuno,Sprint Pro Type A So1,True,True,True,True,True,False,,,Sprint Pro Type A So1
+Mizuno,Sprint Pro Type A So2,True,True,True,True,True,False,,,Sprint Pro Type A So2
+Mizuno,Sprint Pro Type B,True,True,True,True,True,False,,,Sprint Pro Type B
+Mizuno,Sprint Pro Type B So1,True,True,True,True,True,False,,,Sprint Pro Type B So1
+Mizuno,Sprint Pro Type B So2,True,True,True,True,True,False,,,Sprint Pro Type B So2
+Mizuno,Wave Aero,False,False,False,True,True,False,,,Wave Aero
+Mizuno,Wave Amulet,False,False,False,True,True,False,,,Wave Amulet
+Mizuno,WAVE AMULET SO1,False,False,False,True,True,False,,,WAVE AMULET SO1
+Mizuno,Wave Cruise Japan,False,False,False,True,True,False,,,Wave Cruise Japan
+Mizuno,Wave Cruise Japan So1,False,False,False,True,True,False,,,Wave Cruise Japan So1
+Mizuno,Wave Cruise Pro,False,False,False,True,True,False,,,Wave Cruise Pro
+Mizuno,Wave Duel,False,False,False,True,True,False,,,Wave Duel
+Mizuno,Wave Duel 3,False,False,False,True,True,False,,,Wave Duel 3
+Mizuno,WAVE DUEL 4,False,False,False,True,True,False,,,WAVE DUEL 4
+Mizuno,Wave Duel Gtz,False,False,False,True,True,False,,,Wave Duel Gtz
+Mizuno,Wave Duel Gtz2,False,False,False,True,True,False,,,Wave Duel Gtz2
+Mizuno,Wave Duel Neo,False,False,False,True,True,False,,,Wave Duel Neo
+Mizuno,Wave Duel Neo 2,False,False,False,True,True,False,,,Wave Duel Neo 2
+Mizuno,Wave Duel Neo 2 Elite,False,False,False,True,True,False,,,Wave Duel Neo 2 Elite
+Mizuno,WAVE DUEL NEO SO1,False,False,False,True,True,False,,,WAVE DUEL NEO SO1
+Mizuno,Wave Duel Neo Sp,False,False,False,True,True,False,,,Wave Duel Neo Sp
+Mizuno,Wave Duel Pro,False,False,False,True,True,False,,,Wave Duel Pro
+Mizuno,Wave Duel Pro Qtr,False,False,False,True,True,False,,,Wave Duel Pro Qtr
+Mizuno,Wave Ekiden,True,True,True,True,True,False,,,Wave Ekiden
+Mizuno,Wave Emperor,False,False,False,True,True,False,,,Wave Emperor
+Mizuno,Wave Emperor Japan,False,False,False,True,True,False,,,Wave Emperor Japan
+Mizuno,Wave Idaten CB,False,False,False,True,True,False,,,Wave Idaten CB
+Mizuno,Wave Rebellion,False,False,False,True,True,False,,,Wave Rebellion
+Mizuno,Wave Rebellion Flash 2,False,False,False,True,True,False,,,Wave Rebellion Flash 2
+Mizuno,WAVE REBELLION FLASH 3,False,False,False,True,True,False,,,WAVE REBELLION FLASH 3
+Mizuno,Wave Rebellion Pro,False,False,False,True,True,False,,,Wave Rebellion Pro
+Mizuno,Wave Rebellion Pro 2,False,False,False,True,True,False,,,Wave Rebellion Pro 2
+Mizuno,WAVE REBELLION PRO 3 / BETA,False,False,False,True,True,False,,,WAVE REBELLION PRO 3 / BETA
+Mizuno,WAVE REBELLION PRO LOW,False,False,False,True,True,False,,,WAVE REBELLION PRO LOW
+Mizuno,WAVE REBELLION PRO Natural,False,False,False,True,True,False,,,WAVE REBELLION PRO Natural
+Mizuno,Wave Sonic,False,False,False,True,True,False,,,Wave Sonic
+Mizuno,Wave Sonic 2,False,False,False,True,True,False,,,Wave Sonic 2
+Mizuno,Wave Spacer Gl,False,False,False,True,True,False,,,Wave Spacer Gl
+Mizuno,Wave Spacer Gl So1,False,False,False,True,True,False,,,Wave Spacer Gl So1
+Mizuno,Wave Spacer Gl So2,False,False,False,True,True,False,,,Wave Spacer Gl So2
+Mizuno,Wave Spacer Gl So3,False,False,False,True,True,False,,,Wave Spacer Gl So3
+Mizuno,Wave Spacer Gl So4,False,False,False,True,True,False,,,Wave Spacer Gl So4
+Mizuno,WAVE SPACER GL SO5,False,False,False,True,True,False,,,WAVE SPACER GL SO5
+Mizuno,Wave Zone Power,True,True,True,True,True,False,,,Wave Zone Power
+Mizuno,X Blast Elite,True,True,True,True,True,False,,,X Blast Elite
+Mizuno,X BLAST ELITE 2,True,False,True,True,True,False,,,X BLAST ELITE 2
+Mizuno,X BLAST ELITE 3,True,False,True,True,True,False,,,X BLAST ELITE 3
+Mizuno,X Blast Neo,True,True,True,True,True,False,,,X Blast Neo
+Mizuno,X BLAST NEO 2,True,True,True,True,True,False,,,X BLAST NEO 2
+Mizuno,X Blast Next,True,True,True,True,True,False,,,X Blast Next
+Mizuno,X BLAST NEXT 2,True,False,True,True,True,False,,,X BLAST NEXT 2
+Mizuno,X FIRST / WIDE,True,True,True,True,True,False,,,X FIRST / WIDE
+Mizuno,X FIRST 2 / WIDE,True,True,True,True,True,False,,,X FIRST 2 / WIDE
+Mizuno,X FIRST 3 / WIDE,True,True,True,True,True,False,,,X FIRST 3 / WIDE
+Mizuno,X Laser Elite,True,True,True,True,True,False,,,X Laser Elite
+Mizuno,X LASER ELITE 2,True,False,True,True,True,False,,,X LASER ELITE 2
+Mizuno,X Laser Next,True,True,True,True,True,False,,,X Laser Next
+Mizuno,X LASER NEXT 2,True,False,True,True,True,False,,,X LASER NEXT 2
+Mizuno,X LASER NEXT 3,True,False,True,True,True,False,,,X LASER NEXT 3
+Mizuno,X Sprint,True,True,True,True,True,False,,,X Sprint
+Mizuno,X Stream MD,True,True,True,True,True,False,,,X Stream MD
+Mount to Coast,R1,False,False,False,True,True,False,,,R1
+Mount to Coast,S1,False,False,False,True,True,False,,,S1
+New Balance,1400v6,False,False,False,True,True,False,,,1400v6
+New Balance,1500v4 w1500v4,False,False,False,True,True,False,,,1500v4 w1500v4
+New Balance,1500v6,False,False,False,True,True,False,,,1500v6
+New Balance,Development Shoe 2505,False,False,False,True,True,True,10 JAN 2025,09 JAN 2026,"Development Shoe 2505
+VALID: 10 JAN 2025 - 09 JAN 2026"
+New Balance,Development Shoe 6X,True,False,True,True,True,True,18 DEC 2024,17 DEC 2025,"Development Shoe 6X
+VALID: 18 DEC 2024 - 17 DEC 2025"
+New Balance,Development Shoe 6XFP,True,False,True,True,True,True,16 MAY 2025,15 MAY 2026,"Development Shoe 6XFP
+VALID: 16 MAY 2025 - 15 MAY 2026"
+New Balance,DynaSoft Flash v7,True,True,True,True,True,False,,,DynaSoft Flash v7
+New Balance,FuelCell MD,False,False,False,True,True,False,,,FuelCell MD
+New Balance,FuelCell 5280,False,False,False,True,True,False,,,FuelCell 5280
+New Balance,FuelCell Prism,False,False,False,True,True,False,,,FuelCell Prism
+New Balance,FuelCell PVLSE,True,True,True,True,True,False,,,FuelCell PVLSE
+New Balance,FuelCell Racer TC,False,False,False,True,True,False,,,FuelCell Racer TC
+New Balance,FuelCell Racer VIP,False,False,False,True,True,False,,,FuelCell Racer VIP
+New Balance,FuelCell RC Elite,False,False,False,True,True,False,,,FuelCell RC Elite
+New Balance,FuelCell RC Elite v2,False,False,False,True,True,False,,,FuelCell RC Elite v2
+New Balance,FuelCell SuperComp Elite v3,False,False,False,True,True,False,,,FuelCell SuperComp Elite v3
+New Balance,FuelCell SuperComp Elite v4,False,False,False,True,True,False,,,FuelCell SuperComp Elite v4
+New Balance,FuelCell SuperComp Elite v5,False,False,False,True,True,False,,,FuelCell SuperComp Elite v5
+New Balance,FuelCell SuperComp LD-X v3,True,False,True,True,True,False,,,FuelCell SuperComp LD-X v3
+New Balance,FuelCell SuperComp MD-X v2,True,False,True,True,True,False,,,FuelCell SuperComp MD-X v2
+New Balance,FuelCell SuperComp MD-X v3,True,True,True,True,True,False,,,FuelCell SuperComp MD-X v3
+New Balance,FuelCell Supercomp Pacer,False,False,False,True,True,False,,,FuelCell Supercomp Pacer
+New Balance,FuelCell SuperComp Pacer v2,False,False,False,True,True,False,,,FuelCell SuperComp Pacer v2
+New Balance,FuelCell SuperComp PWR-X,True,False,True,True,True,False,,,FuelCell SuperComp PWR-X
+New Balance,FuelCell SuperComp PWR-X v2,True,False,True,True,True,False,,,FuelCell SuperComp PWR-X v2
+New Balance,FuelCell SuperComp PWR-X v3,True,False,True,True,True,False,,,FuelCell SuperComp PWR-X v3
+New Balance,FuelCell SuperComp SD-X,True,False,True,True,True,False,,,FuelCell SuperComp SD-X
+New Balance,FuelCell SuperComp Trainer v2,False,False,False,True,True,False,,,FuelCell SuperComp Trainer v2
+New Balance,FuelCell SuperComp Trainer v3,False,False,False,True,True,False,,,FuelCell SuperComp Trainer v3
+New Balance,Hanzo R v3,False,False,False,True,True,False,,,Hanzo R v3
+New Balance,Hanzo R v4,False,False,False,True,True,False,,,Hanzo R v4
+New Balance,Hanzo W v1,False,False,False,True,True,False,,,Hanzo W v1
+New Balance,Hanzo W v2,False,False,False,True,True,False,,,Hanzo W v2
+New Balance,LD5K,True,True,True,True,True,False,,,LD5K
+New Balance,MD500,True,True,True,True,True,False,,,MD500
+New Balance,MD800,True,True,True,True,True,False,,,MD800
+New Balance,SD100,True,True,True,True,True,False,,,SD100
+New Balance,SD200,True,False,True,True,True,False,,,SD200
+New Balance,SD400,True,False,True,True,True,False,,,SD400
+New Balance,Sigma Aria,True,False,True,True,True,False,,,Sigma Aria
+New Balance,Sigma Harmony,True,False,True,True,True,False,,,Sigma Harmony
+New Balance,ULDELRCX,True,True,True,True,True,False,,,ULDELRCX
+New Balance,Vazee Sigma,True,False,True,True,True,False,,,Vazee Sigma
+New Balance,Vazee Verge,True,False,True,True,True,False,,,Vazee Verge
+Newfeel/Decathlon,RW500,True,True,True,True,True,False,,,RW500
+Newfeel/Decathlon,RW900 V 1,True,True,True,True,True,False,,,RW900 V 1
+Newfeel/Decathlon,RW900 V 2,True,True,True,True,True,False,,,RW900 V 2
+Nike,Air Zoom Alphafly Next %,False,False,False,True,True,False,,,Air Zoom Alphafly Next %
+Nike,Air Zoom Alphafly Next % 2,False,False,False,True,True,False,,,Air Zoom Alphafly Next % 2
+Nike,Air Zoom LJ Elite 1.5,True,True,True,True,True,False,,,Air Zoom LJ Elite 1.5
+Nike,Air Zoom Maxfly,True,False,True,True,True,False,,,Air Zoom Maxfly
+Nike,Air Zoom Victory,True,True,True,True,True,False,,,Air Zoom Victory
+Nike,Alphafly 3,False,False,False,True,True,False,,,Alphafly 3
+Nike,Dev 121052,True,True,True,True,True,True,31 JUL 2025,30 JUL 2026,"Dev 121052
+VALID: 31 JUL 2025 - 30 JUL 2026"
+Nike,Dev 13092,False,False,False,True,True,True,21 NOV 2024,20 NOV 2025,"Dev 13092
+VALID: 21 NOV 2024 - 20 NOV 2025"
+Nike,Dev 16141,False,False,False,True,True,True,02 OCT 2025,01 OCT 2026,"Dev 16141
+VALID: 02 OCT 2025 - 01 OCT 2026"
+Nike,Dev 611,True,True,True,True,True,True,25 APR 2025,24 APR 2026,"Dev 611
+VALID: 25 APR 2025 - 24 APR 2026"
+Nike,Dragonfly 2,True,True,True,True,True,False,,,Dragonfly 2
+Nike,Dragonfly 2 Elite,True,True,True,True,True,False,,,Dragonfly 2 Elite
+Nike,High Jump 3,True,True,True,True,True,False,,,High Jump 3
+Nike,High Jump Elite,True,True,True,True,True,False,,,High Jump Elite
+Nike,Javelin Elite 2,True,True,True,True,True,False,,,Javelin Elite 2
+Nike,LJ 4,True,True,True,True,True,False,,,LJ 4
+Nike,LJ Elite,True,True,True,True,True,False,,,LJ Elite
+Nike,Mamba V6,True,True,True,True,True,False,,,Mamba V6
+Nike,Maxfly 2,True,False,True,True,True,False,,,Maxfly 2
+Nike,Pegasus Plus,False,False,False,True,True,False,,,Pegasus Plus
+Nike,Pegasus Turbo 2,False,False,False,True,True,False,,,Pegasus Turbo 2
+Nike,Pole Vault Elite,True,True,True,True,True,False,,,Pole Vault Elite
+Nike,Rival Distance,True,True,True,True,True,False,,,Rival Distance
+Nike,Rival Jump,True,True,True,True,True,False,,,Rival Jump
+Nike,Rival Multi,True,True,True,True,True,False,,,Rival Multi
+Nike,Rival Sprint,True,True,True,True,True,False,,,Rival Sprint
+Nike,Rival Throw,True,True,True,True,True,True,11 FEB 2025,10 FEB 2026,"Rival Throw
+VALID: 11 FEB 2025 - 10 FEB 2026"
+Nike,Rotational 7,True,True,True,True,True,True,11 FEB 2025,10 FEB 2026,"Rotational 7
+VALID: 11 FEB 2025 - 10 FEB 2026"
+Nike,SD5,True,True,True,True,True,True,14 FEB 2025,13 FEB 2026,"SD5
+VALID: 14 FEB 2025 - 13 FEB 2026"
+Nike,Streakfly 2,False,False,False,True,True,False,,,Streakfly 2
+Nike,Triple Jump Elite 2015,True,True,True,True,True,False,,,Triple Jump Elite 2015
+Nike,Triple Jump Elite,True,True,True,True,True,False,,,Triple Jump Elite
+Nike,Triple Jump Elite 3,True,True,True,True,True,False,,,Triple Jump Elite 3
+Nike,Vaporfly 4,False,False,False,True,True,False,,,Vaporfly 4
+Nike,Vaporfly 4%,False,False,False,True,True,False,,,Vaporfly 4%
+Nike,Victory 2,True,True,True,True,True,False,,,Victory 2
+Nike,Zoom 400,True,True,True,True,True,False,,,Zoom 400
+Nike,Zoom Fly 3,False,False,False,True,True,False,,,Zoom Fly 3
+Nike,Zoom Gravity,False,False,False,True,True,False,,,Zoom Gravity
+Nike,Zoom Ja Fly,True,True,True,True,True,False,,,Zoom Ja Fly
+Nike,Zoom Ja Fly 3,True,True,True,True,True,False,,,Zoom Ja Fly 3
+Nike,Zoom Ja Fly 4,True,False,True,True,True,False,,,Zoom Ja Fly 4
+Nike,Zoom Javelin Elite 3,True,True,True,True,True,False,,,Zoom Javelin Elite 3
+Nike,Zoom Mamba V,True,True,True,True,True,False,,,Zoom Mamba V
+Nike,Zoom Matumbo 3,True,True,True,True,True,False,,,Zoom Matumbo 3
+Nike,Zoom Rival D 10,True,True,True,True,True,False,,,Zoom Rival D 10
+Nike,Zoom Rival M 9,True,True,True,True,True,False,,,Zoom Rival M 9
+Nike,Zoom Rival S 9,True,True,True,True,True,False,,,Zoom Rival S 9
+Nike,Zoom Rival SD,True,True,True,True,True,False,,,Zoom Rival SD
+Nike,Zoom Rotational,True,True,True,True,True,False,,,Zoom Rotational
+Nike,Zoom SD 3,True,True,True,True,True,False,,,Zoom SD 3
+Nike,Zoom SD 4,True,True,True,True,True,False,,,Zoom SD 4
+Nike,Zoom Streak 6,False,False,False,True,True,False,,,Zoom Streak 6
+Nike,Zoom Streak 7,False,False,False,True,True,False,,,Zoom Streak 7
+Nike,Zoom Streak LT 3,False,False,False,True,True,False,,,Zoom Streak LT 3
+Nike,Zoom Streak LT 4,False,False,False,True,True,False,,,Zoom Streak LT 4
+Nike,Zoom Superfly Elite,True,True,True,True,True,False,,,Zoom Superfly Elite
+Nike,Zoom Superfly Elite 2,True,True,True,True,True,False,,,Zoom Superfly Elite 2
+Nike,Zoom Superfly R 3,True,True,True,True,True,False,,,Zoom Superfly R 3
+Nike,Zoom Victory 2,True,True,True,True,True,False,,,Zoom Victory 2
+Nike,Zoom Victory 3,True,True,True,True,True,False,,,Zoom Victory 3
+Nike,Zoom Victory Elite,True,True,True,True,True,False,,,Zoom Victory Elite
+Nike,Zoom Victory Elite 2,True,True,True,True,True,False,,,Zoom Victory Elite 2
+Nike,ZoomX Dragonfly,True,True,True,True,True,False,,,ZoomX Dragonfly
+Nike,ZoomX Dragonfly XC,True,True,True,True,True,False,,,ZoomX Dragonfly XC
+Nike,ZoomX Streakfly,False,False,False,True,True,False,,,ZoomX Streakfly
+Nike,ZoomX Vaporfly Next %,False,False,False,True,True,False,,,ZoomX Vaporfly Next %
+Nike,ZoomX Vaporfly Next % 2,False,False,False,True,True,False,,,ZoomX Vaporfly Next % 2
+Nike,ZoomX Vaporfly Next % 3,False,False,False,True,True,False,,,ZoomX Vaporfly Next % 3
+OLYMPIKUS,Corre 3,False,False,False,True,True,False,,,Corre 3
+OLYMPIKUS,Corre Grafeno,False,False,False,True,True,False,,,Corre Grafeno
+OLYMPIKUS,Corre Grafeno 2,False,False,False,True,True,False,,,Corre Grafeno 2
+OLYMPIKUS,CORRE GRAFENO3,False,False,False,True,True,False,,,CORRE GRAFENO3
+OLYMPIKUS,Corre Supra,False,False,False,True,True,False,,,Corre Supra
+OLYMPIKUS,CORRE SUPRA2,False,False,False,True,True,False,,,CORRE SUPRA2
+OLYMPIKUS,Corre Trilha,False,False,False,True,True,False,,,Corre Trilha
+OLYMPIKUS,CORRE TURBO,False,False,False,True,True,False,,,CORRE TURBO
+OLYMPIKUS,Corre Vento,False,False,False,True,True,False,,,Corre Vento
+OLYMPIKUS,Corre Vento 2,False,False,False,True,True,False,,,Corre Vento 2
+OLYMPIKUS,CORRE4,False,False,False,True,True,False,,,CORRE4
+ON,Cloudboom,False,False,False,True,True,False,,,Cloudboom
+ON,Cloudboom 4,False,False,False,True,True,False,,,Cloudboom 4
+ON,Cloudboom Echo,False,False,False,True,True,False,,,Cloudboom Echo
+ON,Cloudboom Echo 3.0,False,False,False,True,True,False,,,Cloudboom Echo 3.0
+ON,Cloudboom Strike,False,False,False,True,True,False,,,Cloudboom Strike
+ON,Cloudboom Strike LS,False,False,False,True,True,False,,,Cloudboom Strike LS
+ON,Cloudboom Strike LS Kuota,False,False,False,True,True,False,,,Cloudboom Strike LS Kuota
+ON,Cloudflash,False,False,False,True,True,False,,,Cloudflash
+ON,Cloudspike 1500m,True,False,True,True,True,False,,,Cloudspike 1500m
+ON,Cloudspike Amplius 2,True,True,True,True,True,False,,,Cloudspike Amplius 2
+ON,Cloudspike Citius 2,True,False,True,True,True,False,,,Cloudspike Citius 2
+ON,Cloudspike Citius 2 LS,True,False,True,True,True,False,,,Cloudspike Citius 2 LS
+ON,Cloudspike Dev 3,True,False,True,True,True,True,25 NOV 2024,24 NOV 2025,"Cloudspike Dev 3
+VALID: 25 NOV 2024 - 24 NOV 2025"
+ON,Cloudspike Dev 5,True,True,True,True,True,True,21 NOV 2024,20 NOV 2025,"Cloudspike Dev 5
+VALID: 21 NOV 2024 - 20 NOV 2025"
+ON,Cloudspike Sprint,True,True,True,True,True,False,,,Cloudspike Sprint
+ON,Cloudspike Sprint 2,True,False,True,True,True,False,,,Cloudspike Sprint 2
+ON,CLOUDSPIKE SPRINT V,True,False,True,True,True,False,,,CLOUDSPIKE SPRINT V
+ON,Cloudspike Steeple 2,True,True,True,True,True,False,,,Cloudspike Steeple 2
+ON,Cloudspike XC,True,False,True,True,True,False,,,Cloudspike XC
+ON,CloudTri 1,False,False,False,True,True,False,,,CloudTri 1
+ON,CloudTri 2,False,False,False,True,True,False,,,CloudTri 2
+ORTUSEIGHT,Hypersonic 2.0,False,False,False,True,True,False,,,Hypersonic 2.0
+ORTUSEIGHT,Solar,False,False,False,True,True,False,,,Solar
+PEAK,PEAK 3D FORMULA RMS,False,False,False,True,True,True,15 JAN 2025,14 JAN 2026,"PEAK 3D FORMULA RMS
+VALID: 15 JAN 2025 - 14 JAN 2026"
+PEAK,PEAK UP30 3.0 ELITE,False,False,False,True,True,False,,,PEAK UP30 3.0 ELITE
+PEAK,PEAK UP30 4.0 ELITE,False,False,False,True,True,False,,,PEAK UP30 4.0 ELITE
+PEAK,PEAK UP30 4.0 ELITE PROTOTYPE,False,False,False,True,True,True,12 FEB 2025,11 FEB 2026,"PEAK UP30 4.0 ELITE PROTOTYPE
+VALID: 12 FEB 2025 - 11 FEB 2026"
+PEAK,PEAK UP30 4.0 PRO PROTOTYPE V2,False,False,False,True,True,True,13 MAR 2025,12 MAR 2026,"PEAK UP30 4.0 PRO PROTOTYPE V2
+VALID: 13 MAR 2025 - 12 MAR 2026"
+PEAK,PEAK UP30 PRO,False,False,False,True,True,False,,,PEAK UP30 PRO
+Puma,Berserker Nitro Elite 2,True,False,True,True,True,False,,,Berserker Nitro Elite 2
+Puma,Crossfox Nitro Elite,True,True,True,True,True,False,,,Crossfox Nitro Elite
+Puma,Deviate Nitro,False,False,False,True,True,False,,,Deviate Nitro
+Puma,Deviate Nitro Elite,False,False,False,True,True,False,,,Deviate Nitro Elite
+Puma,Deviate Nitro Elite 2,False,False,False,True,True,False,,,Deviate Nitro Elite 2
+Puma,Deviate Nitro Elite 3,False,False,False,True,True,False,,,Deviate Nitro Elite 3
+Puma,Deviate Nitro Ion,False,False,False,True,True,False,,,Deviate Nitro Ion
+Puma,Eternity Nitro,False,False,False,True,True,False,,,Eternity Nitro
+Puma,evoSPEED Berserker Nitro Elite,True,False,True,True,True,False,,,evoSPEED Berserker Nitro Elite
+Puma,evoSPEED Complete TFX Jump,True,True,True,True,True,False,,,evoSPEED Complete TFX Jump
+Puma,evoSPEED Crossfox,True,True,True,True,True,False,,,evoSPEED Crossfox
+Puma,evoSPEED Distance,True,True,True,True,True,False,,,evoSPEED Distance
+Puma,evoSPEED Distance Nitro Elite+,True,False,True,True,True,False,,,evoSPEED Distance Nitro Elite+
+Puma,evoSPEED Electric,True,False,True,True,True,False,,,evoSPEED Electric
+Puma,evoSPEED Forte Nitro Elite,True,True,True,True,True,False,,,evoSPEED Forte Nitro Elite
+Puma,evoSPEED FortePro Nitro Elite,True,False,True,True,True,False,,,evoSPEED FortePro Nitro Elite
+Puma,evoSPEED Haraka 2,True,True,True,True,True,False,,,evoSPEED Haraka 2
+Puma,evoSPEED High Jump,True,True,True,True,True,False,,,evoSPEED High Jump
+Puma,evoSPEED High Jump Elite,True,True,True,True,True,False,,,evoSPEED High Jump Elite
+Puma,evoSPEED High Jump Nitro Elite,True,True,True,True,True,False,,,evoSPEED High Jump Nitro Elite
+Puma,evoSPEED High Jump Power,True,True,True,True,True,False,,,evoSPEED High Jump Power
+Puma,evoSPEED Javelin,True,True,True,True,True,False,,,evoSPEED Javelin
+Puma,evoSPEED Javelin Elite,True,True,True,True,True,False,,,evoSPEED Javelin Elite
+Puma,evoSPEED Long Distance Nitro Elite,True,True,True,True,True,False,,,evoSPEED Long Distance Nitro Elite
+Puma,evoSPEED Long Jump,True,True,True,True,True,False,,,evoSPEED Long Jump
+Puma,evoSPEED Mid-Distance,True,True,True,True,True,False,,,evoSPEED Mid-Distance
+Puma,evoSPEED Naio Jump Nitro Elite,True,True,True,True,True,False,,,evoSPEED Naio Jump Nitro Elite
+Puma,evoSPEED Naio Nitro,True,False,True,True,True,False,,,evoSPEED Naio Nitro
+Puma,evoSPEED Naio Nitro Elite,True,False,True,True,True,False,,,evoSPEED Naio Nitro Elite
+Puma,evoSPEED Naio Nitro Elite 2,True,False,True,True,True,False,,,evoSPEED Naio Nitro Elite 2
+Puma,evoSPEED Prep Sprint,True,False,True,True,True,False,,,evoSPEED Prep Sprint
+Puma,evoSPEED Sprint,True,False,True,True,True,False,,,evoSPEED Sprint
+Puma,evoSPEED Sprint Nitro 2 (evoSPEED Tokyo Nitro),True,False,True,True,True,False,,,evoSPEED Sprint Nitro 2 (evoSPEED Tokyo Nitro)
+Puma,evoSPEED Sprint TFX,True,False,True,True,True,False,,,evoSPEED Sprint TFX
+Puma,evoSPEED Star,True,True,True,True,True,False,,,evoSPEED Star
+Puma,evoSpEED Throw,True,True,True,True,True,False,,,evoSpEED Throw
+Puma,evoSPEED Tokyo Brush,True,True,True,True,True,False,,,evoSPEED Tokyo Brush
+Puma,evoSPEED Tokyo Brush Mid,True,True,True,True,True,False,,,evoSPEED Tokyo Brush Mid
+Puma,evoSPEED Tokyo Future,True,True,True,True,True,False,,,evoSPEED Tokyo Future
+Puma,evoSPEED Tokyo Future Faster+,True,False,True,True,True,False,,,evoSPEED Tokyo Future Faster+
+Puma,evoSPEED Tokyo Future Jump,True,True,True,True,True,False,,,evoSPEED Tokyo Future Jump
+Puma,evoSPEED Tokyo Future Mid,True,True,True,True,True,False,,,evoSPEED Tokyo Future Mid
+Puma,evoSPEED Tokyo Future Nitro Faster+,True,False,True,True,True,False,,,evoSPEED Tokyo Future Nitro Faster+
+Puma,evoSPEED Tokyo Nitro,True,False,True,True,True,False,,,evoSPEED Tokyo Nitro
+Puma,evoSPEED Tokyo Nitro 400,True,True,True,True,True,False,,,evoSPEED Tokyo Nitro 400
+Puma,evoSPEED Tokyo Nitro Long Jump,True,True,True,True,True,False,,,evoSPEED Tokyo Nitro Long Jump
+Puma,evoSPEED Triple Jump Nitro Elite,True,True,True,True,True,False,,,evoSPEED Triple Jump Nitro Elite
+Puma,evoSPEED Triple Jump Power,True,True,True,True,True,False,,,evoSPEED Triple Jump Power
+Puma,evoSPEED Triple Jump/PV,True,True,True,True,True,False,,,evoSPEED Triple Jump/PV
+Puma,FAST-FWD Nitro Elite,False,False,False,True,True,False,,,FAST-FWD Nitro Elite
+Puma,FAST-R Nitro Elite,False,False,False,True,True,False,,,FAST-R Nitro Elite
+Puma,FAST-R Nitro Elite 2,False,False,False,True,True,False,,,FAST-R Nitro Elite 2
+Puma,FAST-R Nitro Elite 3,False,False,False,True,True,False,,,FAST-R Nitro Elite 3
+Puma,FAST-R Nitro Elite 3 - DEV,False,False,False,True,True,True,11 APR 2025,10 APR 2026,"FAST-R Nitro Elite 3 - DEV
+VALID: 11 APR 2025 - 10 APR 2026"
+Puma,Liberate Nitro,False,False,False,True,True,False,,,Liberate Nitro
+Puma,Long Distance Nitro Elite 3,True,True,True,True,True,False,,,Long Distance Nitro Elite 3
+Puma,Mid Distance Nitro Elite,True,True,True,True,True,False,,,Mid Distance Nitro Elite
+Puma,Mid Distance Nitro Elite 3,True,True,True,True,True,False,,,Mid Distance Nitro Elite 3
+Puma,Propio Nitro,True,True,True,True,True,False,,,Propio Nitro
+Puma,Speed 100 R Ignite 2,False,False,False,True,True,False,,,Speed 100 R Ignite 2
+Puma,Speed 300 Racer 2,False,False,False,True,True,False,,,Speed 300 Racer 2
+Puma,Speed 500,False,False,False,True,True,False,,,Speed 500
+Puma,Speed 600 2,False,False,False,True,True,False,,,Speed 600 2
+Puma,Speed Sutamina,False,False,False,True,True,False,,,Speed Sutamina
+Puma,UltraRide,False,False,False,True,True,False,,,UltraRide
+Puma,Velocity Nitro,False,False,False,True,True,False,,,Velocity Nitro
+Reebok,Floatride Energy X,False,False,False,True,True,False,,,Floatride Energy X
+Reebok,RBTC Racer 1,True,False,True,True,True,False,,,RBTC Racer 1
+Reebok,RBTC Racer 2,True,False,True,True,True,False,,,RBTC Racer 2
+Reshod,Coach Carmen RW,True,True,True,True,True,False,,,Coach Carmen RW
+Reshod,Pushover RW,True,True,True,True,True,False,,,Pushover RW
+Salomon,Glide Max,False,False,False,True,True,False,,,Glide Max
+Salomon,S/LAB 491616,False,False,False,True,True,True,05 MAY 2025,04 MAY 2026,"S/LAB 491616
+VALID: 05 MAY 2025 - 04 MAY 2026"
+Salomon,S/LAB Phantasm,True,True,True,True,True,False,,,S/LAB Phantasm
+Salomon,S/LAB Phantasm 2,False,False,False,True,True,False,,,S/LAB Phantasm 2
+Salomon,S/LAB PHANTASM 2 MADE IN FRANCE,False,False,False,True,True,False,,,S/LAB PHANTASM 2 MADE IN FRANCE
+Salomon,S/LAB Phantasm CF,False,False,False,True,True,False,,,S/LAB Phantasm CF
+Salomon,S/LAB STRATOS,True,True,True,True,True,False,,,S/LAB STRATOS
+Saucony,Endorphin 3,True,True,True,True,True,False,,,Endorphin 3
+Saucony,Endorphin Cheetah,True,True,True,True,True,False,,,Endorphin Cheetah
+Saucony,Endorphin DVP3,False,False,False,True,True,False,,,Endorphin DVP3
+Saucony,Endorphin Edge,False,False,False,True,True,False,,,Endorphin Edge
+Saucony,Endorphin Elite,False,False,False,True,True,False,,,Endorphin Elite
+Saucony,Endorphin Elite 2,False,False,False,True,True,False,,,Endorphin Elite 2
+Saucony,Endorphin LD,True,True,True,True,True,False,,,Endorphin LD
+Saucony,Endorphin Pro,False,False,False,True,True,False,,,Endorphin Pro
+Saucony,Endorphin Pro 2,False,False,False,True,True,False,,,Endorphin Pro 2
+Saucony,Endorphin Pro 3,False,False,False,True,True,False,,,Endorphin Pro 3
+Saucony,Endorphin Pro 4,False,False,False,True,True,False,,,Endorphin Pro 4
+Saucony,Endorphin Pro+,False,False,False,True,True,False,,,Endorphin Pro+
+Saucony,Endorphin Shift,False,False,False,True,True,False,,,Endorphin Shift
+Saucony,Endorphin Shift 2,False,False,False,True,True,False,,,Endorphin Shift 2
+Saucony,Endorphin Speed,False,False,False,True,True,False,,,Endorphin Speed
+Saucony,Endorphin Speed 2,False,False,False,True,True,False,,,Endorphin Speed 2
+Saucony,Endorphin Speed 3,False,False,False,True,True,False,,,Endorphin Speed 3
+Saucony,Fastwitch 9,True,True,True,True,True,False,,,Fastwitch 9
+Saucony,Fastwitch 9 MH 2,True,True,True,True,True,False,,,Fastwitch 9 MH 2
+Saucony,Freedom ISO,False,False,False,True,True,False,,,Freedom ISO
+Saucony,Havok XC3 Flat,True,True,True,True,True,False,,,Havok XC3 Flat
+Saucony,Havok XC3 Spike,True,True,True,True,True,False,,,Havok XC3 Spike
+Saucony,Kilkenny XC9 Flat,True,True,True,True,True,False,,,Kilkenny XC9 Flat
+Saucony,Kilkenny XC9 Spike,True,True,True,True,True,False,,,Kilkenny XC9 Spike
+Saucony,Kinvara 12,False,False,False,True,True,False,,,Kinvara 12
+Saucony,Kinvara 13,False,False,False,True,True,False,,,Kinvara 13
+Saucony,Kinvara 14,False,False,False,True,True,False,,,Kinvara 14
+Saucony,Lanzar Jav 2,False,False,False,True,False,False,,,Lanzar Jav 2
+Saucony,Ride ISO,False,False,False,True,True,False,,,Ride ISO
+Saucony,Soarin J2,True,True,True,True,True,False,,,Soarin J2
+Saucony,Spitfire,True,True,True,True,True,False,,,Spitfire
+Saucony,Tempus,False,False,False,True,True,False,,,Tempus
+Saucony,Terminal VT,True,True,True,True,True,False,,,Terminal VT
+Saucony,Type A8,True,True,True,True,True,False,,,Type A8
+Saucony,Type A9,True,True,True,True,True,False,,,Type A9
+Saucony,Unleash SD 2,True,True,True,True,True,False,,,Unleash SD 2
+Saucony,Uplift HJ 2,True,True,True,True,True,False,,,Uplift HJ 2
+SAYSH,Spike One,True,True,True,True,True,False,,,Spike One
+Scott Sports,Pursuit,False,False,False,True,True,False,,,Pursuit
+Scott Sports,Speed Carbon RC,False,False,False,True,True,False,,,Speed Carbon RC
+Skechers,GO RUN ALPHA TEMPO,False,False,False,True,True,False,,,GO RUN ALPHA TEMPO
+Skechers,GO RUN Speed Beast,False,False,False,True,True,False,,,GO RUN Speed Beast
+Skechers,Speed 6,True,True,True,True,True,False,,,Speed 6
+Skechers,Speed Elite,False,False,False,True,True,False,,,Speed Elite
+Sonic Cat,Wake up,True,False,True,True,True,True,11 JUN 2025,10 JUN 2026,"Wake up
+VALID: 11 JUN 2025 - 10 JUN 2026"
+Speedland,Speedland RX:FPY,False,False,False,True,True,True,30 APR 2025,29 APR 2026,"Speedland RX:FPY
+VALID: 30 APR 2025 - 29 APR 2026"
+Techlete,70 Meter Ambitions,True,False,True,True,True,False,,,70 Meter Ambitions
+Topo,Specter,False,False,False,True,True,False,,,Specter
+Tracksmith Corporation,Eliot Racer,False,False,False,True,True,False,,,Eliot Racer
+Tracksmith Corporation,Racer Dev6,False,False,False,True,True,True,13 FEB 2025,12 FEB 2026,"Racer Dev6
+VALID: 13 FEB 2025 - 12 FEB 2026"
+Under Armour,Centric Grip,True,True,True,True,True,False,,,Centric Grip
+Under Armour,Flow Velociti Elite 2022,False,False,False,True,True,False,,,Flow Velociti Elite 2022
+Under Armour,Hovr Miler 3,True,True,True,True,True,False,,,Hovr Miler 3
+Under Armour,Hovr Shakedown,True,True,True,True,True,False,,,Hovr Shakedown
+Under Armour,Hovr Shakedown Elite,True,True,True,True,True,False,,,Hovr Shakedown Elite
+Under Armour,Hovr Silencer,True,True,True,True,True,False,,,Hovr Silencer
+Under Armour,Hovr Skyline HJ,True,True,True,True,True,False,,,Hovr Skyline HJ
+Under Armour,Hovr Skyline LJ,True,True,True,True,True,False,,,Hovr Skyline LJ
+Under Armour,Hovr Skyline TJ,True,True,True,True,True,False,,,Hovr Skyline TJ
+Under Armour,Hovr Smokerider,True,True,True,True,True,False,,,Hovr Smokerider
+Under Armour,Kick Distance 3,True,True,True,True,True,False,,,Kick Distance 3
+Under Armour,Kick Sprint 3,True,True,True,True,True,False,,,Kick Sprint 3
+Under Armour,Shakedown Elite LD 3,True,True,True,True,True,False,,,Shakedown Elite LD 3
+Under Armour,Speedform Miler 2,True,True,True,True,True,False,,,Speedform Miler 2
+Under Armour,Sprint Pro 2,True,True,True,True,True,False,,,Sprint Pro 2
+Under Armour,Sprint Pro 3,True,True,True,True,True,False,,,Sprint Pro 3
+Under Armour,U Velociti Elite 2.0,False,False,False,True,True,False,,,U Velociti Elite 2.0
+Under Armour,UA Shakedown Elite 3.5 MD,True,False,True,True,True,False,,,UA Shakedown Elite 3.5 MD
+Under Armour,UA Shakedown Elite 3.5 MD DEV,True,False,True,True,True,True,12 FEB 2025,11 FEB 2026,"UA Shakedown Elite 3.5 MD DEV
+VALID: 12 FEB 2025 - 11 FEB 2026"
+Under Armour,UA U Silencer 2,True,True,True,True,True,False,,,UA U Silencer 2
+Under Armour,UA Velociti Elite SL DEV,False,False,False,True,True,True,18 JUN 2025,17 JUN 2026,"UA Velociti Elite SL DEV
+VALID: 18 JUN 2025 - 17 JUN 2026"
+Under Armour,UA Velociti Racer 2 DEV2,False,False,False,True,True,True,02 MAY 2025,01 MAY 2026,"UA Velociti Racer 2 DEV2
+VALID: 02 MAY 2025 - 01 MAY 2026"
+Under Armour,Unicorn Spike,True,False,True,True,True,False,,,Unicorn Spike
+Under Armour,Velociti Elite 3,False,False,False,True,True,False,,,Velociti Elite 3
+Under Armour,Velociti Racer,True,True,True,True,True,False,,,Velociti Racer
+Under Armour,Velociti Wind,False,False,False,True,True,False,,,Velociti Wind
+Velaasa,Revolution & Northern Lights,True,True,True,True,True,False,,,Revolution & Northern Lights
+Velaasa,Stones,True,True,True,True,True,False,,,Stones
+Velaasa,Velaasa Rockets,True,True,True,True,True,False,,,Velaasa Rockets
+Volanti,911 Dream,False,False,False,True,True,False,,,911 Dream
+Volanti,Bolt 911 Black Sole,True,False,True,True,True,False,,,Bolt 911 Black Sole
+Volanti,H2 Running Shoes,False,False,False,True,True,False,,,H2 Running Shoes
+Volanti,Panda Running shoes,False,False,False,True,True,False,,,Panda Running shoes
+Volanti,Racing Sun,False,False,False,True,True,False,,,Racing Sun
+Volanti,Rocket Air Running shoes,False,False,False,True,True,False,,,Rocket Air Running shoes
+Volanti,Rocket Air Ultrasonic Diamond,True,False,True,True,True,False,,,Rocket Air Ultrasonic Diamond
+Volanti,Volanti Rocket Air Track Shoes,True,False,True,True,True,False,,,Volanti Rocket Air Track Shoes
+Vulcabras Mizuno,Mizuno Base One,False,False,False,True,True,False,,,Mizuno Base One
+Winglized - T&F Elite,Winglized Zeus 2,True,False,True,True,True,False,,,Winglized Zeus 2
+Xtep,060 1.0,True,True,True,True,True,False,,,060 1.0
+Xtep,160X,False,False,False,True,True,False,,,160X
+Xtep,160X 3.0,False,False,False,True,True,False,,,160X 3.0
+Xtep,160X 3.0 Pro,False,False,False,True,True,False,,,160X 3.0 Pro
+Xtep,160X 3.5 Pro,False,False,False,True,True,False,,,160X 3.5 Pro
+Xtep,160X 5.0,False,False,False,True,True,False,,,160X 5.0
+Xtep,160X 5.0 Pro,False,False,False,True,True,False,,,160X 5.0 Pro
+Xtep,160X 6.0 Pro,False,False,False,True,True,False,,,160X 6.0 Pro
+Xtep,160X 6.5,False,False,False,True,True,False,,,160X 6.5
+Xtep,160X 6.5 Pro,False,False,False,True,True,False,,,160X 6.5 Pro
+Xtep,160X 7.0,False,False,False,True,True,False,,,160X 7.0
+Xtep,160X 7.0 Pro,False,False,False,True,True,False,,,160X 7.0 Pro
+Xtep,160X Elite,False,False,False,True,True,False,,,160X Elite
+Xtep,160X JET,False,False,False,True,True,True,26 SEP 2025,25 SEP 2026,"160X JET
+VALID: 26 SEP 2025 - 25 SEP 2026"
+Xtep,160X2,False,False,False,True,True,False,,,160X2
+Xtep,160XPro,False,False,False,True,True,False,,,160XPro
+Xtep,TZ GLJ-1,True,True,True,True,True,False,,,TZ GLJ-1
+Xtep Kids,Xtep 100 Feiling PRO,False,False,False,True,True,False,,,Xtep 100 Feiling PRO
+Zhongqiao Sports_Qiaodan,FEITENG ML RACE,True,False,True,True,True,False,,,FEITENG ML RACE
+Zhongqiao Sports_Qiaodan,FeiYing PB 2.0,False,False,False,True,True,False,,,FeiYing PB 2.0
+Zhongqiao Sports_Qiaodan,FeiYing PB 3.0,False,False,False,True,True,False,,,FeiYing PB 3.0
+Zhongqiao Sports_Qiaodan,FeiYing PB 4.0,False,False,False,True,True,False,,,FeiYing PB 4.0
+Zhongqiao Sports_Qiaodan,FEIYING PB 5.0,False,False,False,True,True,False,,,FEIYING PB 5.0
+Zhongqiao Sports_Qiaodan,FeiYing Plaid,False,False,False,True,True,False,,,FeiYing Plaid
+Zhongqiao Sports_Qiaodan,FeiYing Plaid 1.5,False,False,False,True,True,False,,,FeiYing Plaid 1.5
+Zhongqiao Sports_Qiaodan,FEIYING PLAID 2.0,False,False,False,True,True,False,,,FEIYING PLAID 2.0
+Zhongqiao Sports_Qiaodan,QING HONG,False,False,False,True,True,False,,,QING HONG

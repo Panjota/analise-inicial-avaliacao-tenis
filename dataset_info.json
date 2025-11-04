@@ -1,0 +1,575 @@
+{
+  "name": {
+    "dtype": "object",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 530,
+    "sample_values": [
+      "ASICS Novablast 5",
+      "Nike Vomero Plus",
+      "Hoka Bondi 9",
+      "New Balance Fresh Foam X More v5",
+      "Nike Vomero 18"
+    ]
+  },
+  "url": {
+    "dtype": "object",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 530,
+    "sample_values": [
+      "https://runrepeat.com/asics-novablast-5",
+      "https://runrepeat.com/nike-vomero-plus",
+      "https://runrepeat.com/hoka-bondi-9",
+      "https://runrepeat.com/new-balance-fresh-foam-x-more-v5",
+      "https://runrepeat.com/nike-vomero-18"
+    ]
+  },
+  "image": {
+    "dtype": "object",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 530,
+    "sample_values": [
+      "https://cdn.runrepeat.com/storage/gallery/product_primary/40608/asics-novablast-5-22312736-720.jpg",
+      "https://cdn.runrepeat.com/storage/gallery/product_primary/40912/nike-vomero-plus-23479827-720.jpg",
+      "https://cdn.runrepeat.com/storage/gallery/product_primary/40639/hoka-bondi-9-22560581-720.jpg",
+      "https://cdn.runrepeat.com/storage/gallery/product_primary/40481/new-balance-fresh-foam-x-more-v-5-21889889-720.jpg",
+      "https://cdn.runrepeat.com/storage/gallery/product_primary/40615/nike-vomero-18-23005571-720.jpg"
+    ]
+  },
+  "audience score": {
+    "dtype": "object",
+    "non_null": 521,
+    "null_count": 9,
+    "unique": 23,
+    "sample_values": [
+      "92 Superb!",
+      "91 Superb!",
+      "90 Great!",
+      "87 Great!",
+      "91 Superb!"
+    ]
+  },
+  "price": {
+    "dtype": "object",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 43,
+    "sample_values": [
+      "$140",
+      "$180",
+      "$170",
+      "$155",
+      "$150"
+    ]
+  },
+  "pace": {
+    "dtype": "object",
+    "non_null": 409,
+    "null_count": 121,
+    "unique": 5,
+    "sample_values": [
+      "Daily runningTempo",
+      "Daily running",
+      "Daily running",
+      "Daily running",
+      "Daily running"
+    ]
+  },
+  "arch support": {
+    "dtype": "object",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 3,
+    "sample_values": [
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral"
+    ]
+  },
+  "weight lab weight brand": {
+    "dtype": "object",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 475,
+    "sample_values": [
+      "9 oz / 254g 9 oz / 255g",
+      "10.2 oz / 289g 10.1 oz / 285g",
+      "10.7 oz / 303g 10.5 oz / 297g",
+      "10.9 oz / 308g 10.7 oz / 303g",
+      "10.5 oz / 298g 11.5 oz / 325g"
+    ]
+  },
+  "lightweight": {
+    "dtype": "object",
+    "non_null": 242,
+    "null_count": 288,
+    "unique": 2,
+    "sample_values": [
+      "✗",
+      "✓",
+      "✗",
+      "✓",
+      "✗"
+    ]
+  },
+  "drop lab drop brand": {
+    "dtype": "object",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 313,
+    "sample_values": [
+      "7.4 mm 8.0 mm",
+      "9.6 mm 10.0 mm",
+      "9.1 mm 5.0 mm",
+      "7.8 mm 4.0 mm",
+      "13.9 mm 10.0 mm"
+    ]
+  },
+  "strike pattern": {
+    "dtype": "object",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 3,
+    "sample_values": [
+      "HeelMid/forefoot",
+      "HeelMid/forefoot",
+      "HeelMid/forefoot",
+      "Mid/forefoot",
+      "Heel"
+    ]
+  },
+  "midsole softness": {
+    "dtype": "object",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 175,
+    "sample_values": [
+      "13.0 HA",
+      "15.1 HA",
+      "25.1 HA",
+      "8.6 HA",
+      "15.0 HA"
+    ]
+  },
+  "difference in midsole softness in cold": {
+    "dtype": "object",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 5,
+    "sample_values": [
+      "Big",
+      "Small",
+      "Small",
+      "Normal",
+      "Small"
+    ]
+  },
+  "toebox durability": {
+    "dtype": "object",
+    "non_null": 528,
+    "null_count": 2,
+    "unique": 6,
+    "sample_values": [
+      "Bad",
+      "Decent",
+      "Good",
+      "Decent",
+      "Decent"
+    ]
+  },
+  "heel padding durability": {
+    "dtype": "object",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 4,
+    "sample_values": [
+      "Decent",
+      "Good",
+      "Good",
+      "Decent",
+      "Good"
+    ]
+  },
+  "outsole durability": {
+    "dtype": "object",
+    "non_null": 528,
+    "null_count": 2,
+    "unique": 4,
+    "sample_values": [
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Decent"
+    ]
+  },
+  "breathability": {
+    "dtype": "object",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 9,
+    "sample_values": [
+      "Moderate",
+      "3",
+      "Moderate",
+      "Breathable",
+      "3"
+    ]
+  },
+  "heel stack": {
+    "dtype": "object",
+    "non_null": 519,
+    "null_count": 11,
+    "unique": 176,
+    "sample_values": [
+      "40.9 mm",
+      "42.3 mm",
+      "41.3 mm",
+      "42.1 mm",
+      "42.5 mm"
+    ]
+  },
+  "forefoot stack": {
+    "dtype": "object",
+    "non_null": 519,
+    "null_count": 11,
+    "unique": 177,
+    "sample_values": [
+      "33.5 mm",
+      "32.7 mm",
+      "32.2 mm",
+      "34.3 mm",
+      "28.6 mm"
+    ]
+  },
+  "drop": {
+    "dtype": "object",
+    "non_null": 518,
+    "null_count": 12,
+    "unique": 134,
+    "sample_values": [
+      "7.4 mm",
+      "9.6 mm",
+      "9.1 mm",
+      "7.8 mm",
+      "13.9 mm"
+    ]
+  },
+  "flexibility / stiffness (new method)": {
+    "dtype": "object",
+    "non_null": 311,
+    "null_count": 219,
+    "unique": 133,
+    "sample_values": [
+      "11.2N",
+      "19.8N",
+      "16.5N",
+      "18.1N",
+      "16.0N"
+    ]
+  },
+  "flexibility / stiffness (old method)": {
+    "dtype": "object",
+    "non_null": 423,
+    "null_count": 107,
+    "unique": 242,
+    "sample_values": [
+      "19.1N",
+      "30.6N",
+      "30.6N",
+      "26.9N",
+      "32.5N"
+    ]
+  },
+  "brand": {
+    "dtype": "object",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 26,
+    "sample_values": [
+      "ASICS",
+      "Nike",
+      "HOKA",
+      "New Balance",
+      "Nike"
+    ]
+  },
+  "audience_score": {
+    "dtype": "float64",
+    "non_null": 521,
+    "null_count": 9,
+    "unique": 23,
+    "sample_values": [
+      92.0,
+      91.0,
+      90.0,
+      87.0,
+      91.0
+    ]
+  },
+  "price_usd": {
+    "dtype": "float64",
+    "non_null": 530,
+    "null_count": 0,
+    "unique": 43,
+    "sample_values": [
+      140.0,
+      180.0,
+      170.0,
+      155.0,
+      150.0
+    ]
+  },
+  "drop_mm": {
+    "dtype": "float64",
+    "non_null": 518,
+    "null_count": 12,
+    "unique": 132,
+    "sample_values": [
+      7.4,
+      9.6,
+      9.1,
+      7.8,
+      13.9
+    ]
+  },
+  "weight": {
+    "dtype": "object",
+    "non_null": 355,
+    "null_count": 175,
+    "unique": 128,
+    "sample_values": [
+      "10.2 oz (289g)",
+      "10.7 oz (303g)",
+      "10.9 oz (308g)",
+      "10.5 oz (298g)",
+      "9.7 oz (275g)"
+    ]
+  },
+  "weight_grams": {
+    "dtype": "float64",
+    "non_null": 355,
+    "null_count": 175,
+    "unique": 128,
+    "sample_values": [
+      289.0,
+      303.0,
+      308.0,
+      298.0,
+      275.0
+    ]
+  },
+  "trail terrain": {
+    "dtype": "object",
+    "non_null": 121,
+    "null_count": 409,
+    "unique": 5,
+    "sample_values": [
+      "LightModerate",
+      "LightModerate",
+      "Light",
+      "ModerateTechnical",
+      "ModerateTechnical"
+    ]
+  },
+  "heel stack lab heel stack brand": {
+    "dtype": "object",
+    "non_null": 121,
+    "null_count": 409,
+    "unique": 119,
+    "sample_values": [
+      "23.3 mm 25.0 mm",
+      "24.5 mm 25.0 mm",
+      "34.6 mm 37.0 mm",
+      "38.6 mm 39.4 mm",
+      "38.0 mm 33.0 mm"
+    ]
+  },
+  "midsole width - forefoot": {
+    "dtype": "object",
+    "non_null": 57,
+    "null_count": 473,
+    "unique": 48,
+    "sample_values": [
+      "112.3 mm",
+      "109.7 mm",
+      "112.6 mm",
+      "116.3 mm",
+      "114.9 mm"
+    ]
+  },
+  "midsole width - heel": {
+    "dtype": "object",
+    "non_null": 32,
+    "null_count": 498,
+    "unique": 29,
+    "sample_values": [
+      "86.5 mm",
+      "90.3 mm",
+      "97.8 mm",
+      "97.5 mm",
+      "85.5 mm"
+    ]
+  },
+  "outsole thickness": {
+    "dtype": "object",
+    "non_null": 11,
+    "null_count": 519,
+    "unique": 10,
+    "sample_values": [
+      "5.0 mm",
+      "4.5 mm",
+      "2.3 mm",
+      "4.2 mm",
+      "3.6 mm"
+    ]
+  },
+  "weight (g)": {
+    "dtype": "object",
+    "non_null": 9,
+    "null_count": 521,
+    "unique": 9,
+    "sample_values": [
+      "280",
+      "215",
+      "291.0",
+      "306",
+      "298"
+    ]
+  },
+  "drop (mm)": {
+    "dtype": "float64",
+    "non_null": 9,
+    "null_count": 521,
+    "unique": 8,
+    "sample_values": [
+      8.7,
+      10.0,
+      8.7,
+      10.8,
+      5.6
+    ]
+  },
+  "flexibility of the shoe (n)": {
+    "dtype": "float64",
+    "non_null": 9,
+    "null_count": 521,
+    "unique": 9,
+    "sample_values": [
+      32.4,
+      94.3,
+      27.6,
+      23.5,
+      69.4
+    ]
+  },
+  "flexibility of the shoe (freezer 20 min) (n)": {
+    "dtype": "float64",
+    "non_null": 8,
+    "null_count": 522,
+    "unique": 8,
+    "sample_values": [
+      38.5,
+      103.4,
+      38.2,
+      88.6,
+      68.8
+    ]
+  },
+  "flexibility of the shoe (% of change)": {
+    "dtype": "object",
+    "non_null": 9,
+    "null_count": 521,
+    "unique": 9,
+    "sample_values": [
+      "39.5",
+      "9.65%",
+      "31.2",
+      "62.6",
+      "27.7"
+    ]
+  },
+  "longitudinal flexibility (1-5 scale, 5 being the stiffest)": {
+    "dtype": "float64",
+    "non_null": 8,
+    "null_count": 522,
+    "unique": 3,
+    "sample_values": [
+      3.0,
+      5.0,
+      3.0,
+      5.0,
+      4.0
+    ]
+  },
+  "torsional flexibility (1-5 scale, 5 being the stiffest)": {
+    "dtype": "float64",
+    "non_null": 3,
+    "null_count": 527,
+    "unique": 1,
+    "sample_values": [
+      3.0,
+      3.0,
+      3.0
+    ]
+  },
+  "flexibility of the shoe (freezer 1 hour) (n)": {
+    "dtype": "float64",
+    "non_null": 1,
+    "null_count": 529,
+    "unique": 1,
+    "sample_values": [
+      36.2
+    ]
+  },
+  "longitudinal flexibility (on a 0-5 scale, 0 being the stiffest)": {
+    "dtype": "float64",
+    "non_null": 1,
+    "null_count": 529,
+    "unique": 1,
+    "sample_values": [
+      3.0
+    ]
+  },
+  "torsional flexibility (on a 0-5 scale, 0 being the stiffest)": {
+    "dtype": "float64",
+    "non_null": 1,
+    "null_count": 529,
+    "unique": 1,
+    "sample_values": [
+      3.0
+    ]
+  },
+  "agility and responsiveness": {
+    "dtype": "object",
+    "non_null": 1,
+    "null_count": 529,
+    "unique": 1,
+    "sample_values": [
+      "Improved balance and stability."
+    ]
+  },
+  "outsole hardness": {
+    "dtype": "object",
+    "non_null": 2,
+    "null_count": 528,
+    "unique": 2,
+    "sample_values": [
+      "68.5 HC",
+      "56.5 HC"
+    ]
+  },
+  "fuelcell supercomp pacer v2": {
+    "dtype": "object",
+    "non_null": 1,
+    "null_count": 529,
+    "unique": 1,
+    "sample_values": [
+      "10.0 HA"
+    ]
+  }
+}

@@ -486,7 +486,7 @@ Este projeto foi desenvolvido para fins acadêmicos como parte da disciplina de 
 
 <div align="center">
 
-**Desenvolvido com 💙 por Carlos Lavor Neto e Alexandro Pantoja**
+**Desenvolvido por Carlos Lavor Neto e Alexandro Pantoja**
 
 *Universidade do Estado do Amazonas - 2024*
 

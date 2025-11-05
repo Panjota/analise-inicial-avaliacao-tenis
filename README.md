@@ -15,31 +15,16 @@
 
 ---
 
-## 👥 Equipe
+## Equipe'
 
 | Nome | Função |
 |------|---------|
-| **Carlos Lavor Neto** | Desenvolvedor e Analista de Dados |
-| **Alexandro Pantoja** | Desenvolvedor e Analista de Dados |
+| **Carlos Lavor Neto** |
+| **Alexandro Pantoja** |
 
 ---
 
-## 📋 Sumário
-
-- [Sobre o Projeto](#-sobre-o-projeto)
-- [Objetivo](#-objetivo)
-- [Dataset](#-dataset)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Notebooks de Análise](#-notebooks-de-análise)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Como Executar](#-como-executar)
-- [Principais Resultados](#-principais-resultados)
-- [Estrutura de Diretórios](#-estrutura-de-diretórios)
-- [Referências](#-referências)
-
----
-
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto consiste em uma **análise exploratória completa** de dados sobre tênis de corrida, extraídos do site RunRepeat. O trabalho foi desenvolvido como parte da disciplina de Ciência de Dados do curso de Engenharia da Computação da UEA, com foco em aplicar técnicas de análise de dados, visualização e extração de insights relevantes.
 
@@ -47,19 +32,19 @@ A análise abrange desde a compreensão inicial dos atributos até análises mul
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 O objetivo principal deste projeto é realizar uma análise exploratória de dados (EDA) completa sobre tênis de corrida, identificando:
 
-- ✅ Padrões e tendências no mercado de tênis de corrida
-- ✅ Relação entre preço, qualidade e características técnicas
-- ✅ Melhores opções de custo-benefício para diferentes perfis de corredores
-- ✅ Insights sobre marcas, durabilidade e performance
-- ✅ Recomendações baseadas em dados para compra de tênis
+- Padrões e tendências no mercado de tênis de corrida
+- Relação entre preço, qualidade e características técnicas
+- Melhores opções de custo-benefício para diferentes perfis de corredores
+- Insights sobre marcas, durabilidade e performance
+- Recomendações baseadas em dados para compra de tênis
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 ### Fonte de Dados
 - **Origem:** [RunRepeat](https://runrepeat.com)
@@ -83,11 +68,11 @@ O objetivo principal deste projeto é realizar uma análise exploratória de dad
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projeto
 
 O projeto está organizado em **6 notebooks Jupyter** sequenciais, cada um focado em uma etapa específica da análise:
 
-### 📓 Notebooks de Análise
+### Notebooks de Análise
 
 #### 1. Compreensão dos Atributos
 **Arquivo:** `01_Compreensao_Atributos.ipynb`
@@ -170,7 +155,7 @@ Análise de múltiplas variáveis simultaneamente:
 
 ---
 
-#### 6. Análise de Custo-Benefício ⭐
+#### 6. Análise de Custo-Benefício
 **Arquivo:** `06_Analise_Custo_Beneficio.ipynb`
 
 Análise focada em auxiliar a compra de tênis:
@@ -208,14 +193,14 @@ Análise focada em auxiliar a compra de tênis:
    - Top 3 em cada faixa (C/B e Qualidade)
 
 **Faixas de Preço:**
-- 💰 Econômico: < $80
-- 💳 Moderado: $80 - $120
-- 💎 Premium: $120 - $160
-- 👑 Top: > $160
+- Econômico: < $80
+- Moderado: $80 - $120
+- Premium: $120 - $160
+- Top: > $160
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Linguagem de Programação
 - **Python 3.8+**
@@ -242,7 +227,7 @@ Análise focada em auxiliar a compra de tênis:
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 
@@ -297,100 +282,100 @@ jupyter notebook
 
 ---
 
-## 📈 Principais Resultados
+## Principais Resultados
 
 ### Insights Gerais
 
-#### 💰 Preço vs Qualidade
+#### Preço vs Qualidade
 - **Correlação fraca:** Preço alto ≠ Qualidade alta
 - **Sweet spot:** Faixa $120-$170 oferece melhor valor
 - **Todas as faixas têm excelentes opções** (Score 90+)
 
-#### 🏃 Perfil de Uso
+#### Perfil de Uso
 - **Daily Running:** Maior variedade (60% do mercado)
 - **Racing:** Modelos mais caros e leves
 - **Trail:** Maior durabilidade, preço moderado
 
-#### 🏭 Marcas
+#### Marcas
 - **Melhor C/B médio:** Saucony, Mizuno
 - **Maior variedade:** Nike, ASICS, Adidas
 - **Premium:** On, Hoka, NNormal
 
-#### 🛡️ Durabilidade
+#### Durabilidade
 - **Baixa correlação com preço** (0.15)
 - **Tênis baratos podem ser muito duráveis**
 - **Faixa moderada tem boa durabilidade média**
 
 ### Top 3 Geral
 
-#### 🏆 Melhor Custo-Benefício
+#### Melhor Custo-Benefício
 1. **Asics Gel Excite 10** - $70 | Score: 85 | C/B: 121.43
 2. **Mizuno Wave Rider 27** - $75 | Score: 90 | C/B: 120.00
 3. **Saucony Guide 17** - $80 | Score: 92 | C/B: 115.00
 
-#### 🌟 Melhor Qualidade Absoluta
+#### Melhor Qualidade Absoluta
 1. **Adidas Adizero Adios Pro 4** - $250 | Score: 93
 2. **NNormal Kjerag** - $195 | Score: 93
 3. **PUMA Deviate Nitro Elite** - $200 | Score: 93
 
 ### Recomendações Práticas
 
-#### Para Economizar 💰
+#### Para Economizar
 - Foque no índice de custo-benefício
 - Priorize faixa econômica (<$80) ou moderada ($80-120)
 - Marcas: Saucony, Mizuno, Brooks
 
-#### Para Máxima Performance 🏆
+#### Para Máxima Performance
 - Foque no score absoluto
 - Invista em modelos premium ($160+)
 - Marcas: Adidas, Nike, On
 
-#### Para Iniciantes 👟
+#### Para Iniciantes
 - Budget: $80-120
 - Tipo: Daily Running
 - Priorize conforto e durabilidade
 
-#### Para Competição 🥇
+#### Para Competição
 - Budget: $160+
 - Tipo: Racing
 - Priorize peso e responsividade
 
 ---
 
-## 📁 Estrutura de Diretórios
+## Estrutura de Diretórios
 
 ```
 analise-inicial-avaliacao-tenis/
 │
-├── 📓 01_Compreensao_Atributos.ipynb
-├── 📓 02_Avaliacao_Qualidade_Dados.ipynb
-├── 📓 03_Visualizacao_Univariada.ipynb
-├── 📓 04_Visualizacao_Bivariada.ipynb
-├── 📓 05_Visualizacao_Multivariada.ipynb
-├── 📓 06_Analise_Custo_Beneficio.ipynb
+├── 01_Compreensao_Atributos.ipynb
+├── 02_Avaliacao_Qualidade_Dados.ipynb
+├── 03_Visualizacao_Univariada.ipynb
+├── 04_Visualizacao_Bivariada.ipynb
+├── 05_Visualizacao_Multivariada.ipynb
+├── 06_Analise_Custo_Beneficio.ipynb
 │
-├── 📂 tenis_scraper_runrepeat/
-│   ├── 📂 dados_brutos/          # Dados originais da coleta
-│   ├── 📂 dados_finais/           # Dados processados
+├── tenis_scraper_runrepeat/
+│   ├── dados_brutos/          # Dados originais da coleta
+│   ├── dados_finais/           # Dados processados
 │   │   ├── runrepeat_shoes_complete.csv
 │   │   └── runrepeat_shoes_complete.json
-│   └── 📂 scripts/                # Scripts de coleta
+│   └── scripts/                # Scripts de coleta
 │
-├── 📂 tabelas_exportadas/         # Tabelas geradas nas análises
+├── tabelas_exportadas/         # Tabelas geradas nas análises
 │   ├── dataset_info.json
 │   ├── tabela_atributos_classificacao.csv
 │   └── tabela_completude_atributos.csv
 │
-├── 📂 scrapers_antigos/           # Versões anteriores dos scrapers
+├── scrapers_antigos/           # Versões anteriores dos scrapers
 │
-├── 📄 requirements.txt            # Dependências do projeto
-├── 📄 README.md                   # Este arquivo
-└── 📄 .gitignore                  # Arquivos ignorados pelo Git
+├── requirements.txt            # Dependências do projeto
+├── README.md                   # Este arquivo
+└── .gitignore                  # Arquivos ignorados pelo Git
 ```
 
 ---
 
-## 📊 Tabelas Exportadas
+## Tabelas Exportadas
 
 Durante a análise, diversas tabelas são geradas e salvas:
 
@@ -405,7 +390,7 @@ Metadados do dataset incluindo dimensões, tipos e estatísticas básicas
 
 ---
 
-## 🔍 Metodologia
+## Metodologia
 
 ### 1. Coleta de Dados
 - Web scraping automatizado do RunRepeat
@@ -429,7 +414,7 @@ Metadados do dataset incluindo dimensões, tipos e estatísticas básicas
 
 ---
 
-## 📚 Referências
+## Referências
 
 ### Dataset
 - **RunRepeat** - https://runrepeat.com
@@ -450,44 +435,13 @@ Metadados do dataset incluindo dimensões, tipos e estatísticas básicas
 
 ---
 
-## 📝 Notas
+## Notas
 
 ### Limitações
 - Dados limitados ao período de coleta (Nov/2024)
 - Preços podem variar com o tempo
 - Análise baseada em dados do RunRepeat (não incluindo todas as marcas/modelos do mercado)
 
-### Trabalhos Futuros
-- [ ] Análise temporal de preços
-- [ ] Modelo preditivo de scores
-- [ ] Análise de sentimento de reviews
-- [ ] Comparação com dados de vendas reais
-- [ ] Dashboard interativo
-
----
-
-## 📧 Contato
-
-**Universidade do Estado do Amazonas (UEA)**  
-Curso de Engenharia da Computação  
-Disciplina: Ciência de Dados
-
-**Desenvolvedores:**
-- Carlos Lavor Neto
-- Alexandro Pantoja
-
----
-
-## 📄 Licença
+## Licença
 
 Este projeto foi desenvolvido para fins acadêmicos como parte da disciplina de Ciência de Dados da UEA.
-
----
-
-<div align="center">
-
-**Desenvolvido por Carlos Lavor Neto e Alexandro Pantoja**
-
-*Universidade do Estado do Amazonas - 2024*
-
-</div>

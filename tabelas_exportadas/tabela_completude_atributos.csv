@@ -1,30 +1,30 @@
 Atributo,Total,Não-Nulos,Nulos,Completude (%),Valores Únicos
 name,530,530,0,100.0,530
-breathability,530,530,0,100.0,9
-image,530,530,0,100.0,530
-price_usd,530,530,0,100.0,42
-price,530,530,0,100.0,43
 url,530,530,0,100.0,530
-arch support,530,530,0,100.0,3
+image,530,530,0,100.0,530
+price,530,530,0,100.0,43
 weight lab weight brand,530,530,0,100.0,475
-brand,530,530,0,100.0,26
+arch support,530,530,0,100.0,3
+difference in midsole softness in cold,530,530,0,100.0,5
+midsole softness,530,530,0,100.0,175
 drop lab drop brand,530,530,0,100.0,313
 strike pattern,530,530,0,100.0,3
-midsole softness,530,530,0,100.0,175
-difference in midsole softness in cold,530,530,0,100.0,5
+brand,530,530,0,100.0,26
+price_usd,530,530,0,100.0,42
+breathability,530,530,0,100.0,9
 heel padding durability,530,530,0,100.0,4
-toebox durability,530,528,2,99.6,6
 outsole durability,530,528,2,99.6,4
-audience_score,530,521,9,98.3,23
+toebox durability,530,528,2,99.6,6
 audience score,530,521,9,98.3,23
-heel stack,530,519,11,97.9,176
+audience_score,530,521,9,98.3,23
 forefoot stack,530,519,11,97.9,177
+heel stack,530,519,11,97.9,176
 drop,530,518,12,97.7,134
 drop_mm,530,518,12,97.7,132
 flexibility / stiffness (old method),530,423,107,79.8,242
 pace,530,409,121,77.2,5
-weight,530,355,175,67.0,128
 weight_grams,530,355,175,67.0,128
+weight,530,355,175,67.0,128
 flexibility / stiffness (new method),530,311,219,58.7,133
 lightweight,530,242,288,45.7,2
 trail terrain,530,121,409,22.8,5

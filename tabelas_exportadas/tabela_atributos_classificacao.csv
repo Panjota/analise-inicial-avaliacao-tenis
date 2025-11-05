@@ -1,47 +1,47 @@
-Atributo,Tipo,Domínio,Domínio Dinâmico,Escala,Completude,Observações
-name,Nominal,Texto livre (nomes de produtos),Sim,N/A,100.0%,Identificador único do produto. 530 valores únicos.
-url,Nominal,URL válida (formato: https://runrepeat.com/...),Sim,N/A,100.0%,Link para página do produto. Valores únicos.
-image,Nominal,URL válida de imagem (CDN),Sim,N/A,100.0%,URL da imagem principal do produto.
-audience score,Ordinal,"Texto: ""XX Category"" (ex: ""92 Superb!"")",Não,Intervalo,98.3%,Score de 0-100 com categoria qualitativa. 23 valores únicos.
-audience_score,Numérico Contínuo,"[0, 100]",Não,Razão,98.3%,Versão numérica do score. Valor de referência zero.
-price,Nominal,"Texto: ""$XXX""",Sim,N/A,100.0%,Preço em formato texto. 43 valores únicos.
-price_usd,Numérico Contínuo,"[0, +∞) (valores reais positivos)",Sim,Razão,100.0%,Preço em USD. Zero absoluto (gratuito). Razão tem significado (2x mais caro).
-brand,Nominal,Texto (nomes de marcas),Sim,N/A,100.0%,Fabricante do tênis. 26 marcas diferentes.
-pace,Ordinal,"{Daily running, Tempo, Racing, Walking, Hiking}",Não,N/A,77.2%,Tipo de ritmo/uso recomendado. 5 categorias.
-arch support,Ordinal,"{Neutral, Stability, Motion control}",Não,N/A,100.0%,Tipo de suporte ao arco do pé. 3 categorias ordenadas por nível de suporte.
-strike pattern,Nominal,"{Heel, Mid/forefoot, HeelMid/forefoot}",Não,N/A,100.0%,Padrão de pisada recomendado. 3 categorias.
-trail terrain,Ordinal,"{Light trail, Rugged terrain, Mountain/Ultra, etc}",Não,N/A,22.8%,Tipo de terreno (apenas para tênis de trail). Apenas 22.8% preenchido.
-weight,Nominal,"Texto: ""XX oz (XXXg)""",Não,N/A,67.0%,Peso em formato texto com múltiplas unidades.
-weight_grams,Numérico Contínuo,"(0, +∞) gramas",Não,Razão,67.0%,Peso em gramas. Zero absoluto. Razão tem significado (2x mais pesado).
-weight lab weight brand,Nominal,"Texto: ""XX oz / XXXg XX oz / XXXg""",Não,N/A,100.0%,Comparação peso laboratório vs. fabricante. 475 valores únicos.
-lightweight,Nominal,"{✗, NaN}",Não,N/A,45.7%,Indicador binário de leveza. Apenas 45.7% preenchido.
-weight (g),Nominal,Texto numérico,Não,N/A,1.7%,Peso alternativo. Apenas 1.7% preenchido. Redundante com weight_grams.
-drop,Nominal,"Texto: ""XX mm""",Não,N/A,97.7%,Diferença de altura calcanhar-antepé em formato texto. 134 valores únicos.
-drop_mm,Numérico Contínuo,"[0, +∞) milímetros",Não,Razão,97.7%,"Drop em mm. Zero significa ""zero drop"". Razão tem significado."
-drop lab drop brand,Nominal,"Texto: ""XX mm XX mm""",Não,N/A,100.0%,Comparação drop laboratório vs. fabricante. 313 valores únicos.
-drop (mm),Numérico Contínuo,"[0, +∞) milímetros",Não,Razão,1.7%,Drop alternativo. Apenas 1.7% preenchido. Redundante com drop_mm.
-heel stack,Nominal,"Texto: ""XX mm"" ou ""XX.X mm""",Não,N/A,97.9%,Altura da sola no calcanhar em formato texto. 176 valores únicos.
-forefoot stack,Nominal,"Texto: ""XX mm"" ou ""XX.X mm""",Não,N/A,97.9%,Altura da sola no antepé em formato texto. 177 valores únicos.
-heel stack lab heel stack brand,Nominal,"Texto: ""XX.X mm XX.X mm""",Não,N/A,22.8%,Comparação stack laboratório vs. fabricante. Apenas 22.8% preenchido.
-midsole softness,Nominal,"Texto: ""XX HA"" ou ""XX.X HA""",Não,N/A,100.0%,Dureza Shore A. Valores maiores = mais duro. 175 valores únicos.
-difference in midsole softness in cold,Ordinal,"{Small, Big, Huge, Medium, Moderate}",Não,N/A,100.0%,Mudança na maciez em temperatura fria. 5 categorias ordenadas.
-flexibility / stiffness (new method),Nominal,"Texto: ""XX N"" ou ""XX.X N""",Não,N/A,58.7%,Rigidez em Newtons (novo método). 133 valores únicos. 58.7% preenchido.
-flexibility / stiffness (old method),Nominal,"Texto: ""XX N"" ou ""XX.X N""",Não,N/A,79.8%,Rigidez em Newtons (método antigo). 242 valores únicos. 79.8% preenchido.
-flexibility of the shoe (n),Numérico Contínuo,"(0, +∞) Newtons",Não,Razão,1.7%,Força necessária para dobrar. Apenas 1.7% preenchido.
-flexibility of the shoe (freezer 20 min) (n),Numérico Contínuo,"(0, +∞) Newtons",Não,Razão,1.5%,Flexibilidade após congelamento. Apenas 1.5% preenchido.
-flexibility of the shoe (freezer 1 hour) (n),Numérico Contínuo,"(0, +∞) Newtons",Não,Razão,0.2%,Flexibilidade após 1h congelamento. Apenas 0.2% preenchido.
-flexibility of the shoe (% of change),Nominal,"Texto: ""XX%"" ou ""-XX%""",Não,N/A,1.7%,Variação percentual na flexibilidade. Apenas 1.7% preenchido.
-"longitudinal flexibility (1-5 scale, 5 being the stiffest)",Ordinal,"[1, 5] (escala discreta)",Não,Intervalo,1.5%,Flexibilidade longitudinal. Escala ordinal. Apenas 1.5% preenchido.
-"longitudinal flexibility (on a 0-5 scale, 0 being the stiffest)",Ordinal,"[0, 5] (escala discreta)",Não,Intervalo,0.2%,Flexibilidade longitudinal (escala invertida). Apenas 0.2% preenchido.
-"torsional flexibility (1-5 scale, 5 being the stiffest)",Ordinal,"[1, 5] (escala discreta)",Não,Intervalo,0.6%,Flexibilidade torsional. Apenas 0.6% preenchido.
-"torsional flexibility (on a 0-5 scale, 0 being the stiffest)",Ordinal,"[0, 5] (escala discreta)",Não,Intervalo,0.2%,Flexibilidade torsional (escala invertida). Apenas 0.2% preenchido.
-toebox durability,Ordinal,"{Bad, Decent, Good, Great, Excellent, Outstanding}",Não,N/A,99.6%,Durabilidade da parte frontal. 6 categorias ordenadas por qualidade.
-heel padding durability,Ordinal,"{Bad, Decent, Good, Great}",Não,N/A,100.0%,Durabilidade do acolchoamento do calcanhar. 4 categorias ordenadas.
-outsole durability,Ordinal,"{Bad, Decent, Good, Great}",Não,N/A,99.6%,Durabilidade da sola externa. 4 categorias ordenadas.
-outsole hardness,Nominal,Texto livre,Não,N/A,0.4%,Dureza da sola. Apenas 0.4% preenchido.
-breathability,Ordinal,"{Poor, Moderate, Good, Excellent, etc}",Não,N/A,100.0%,Capacidade de ventilação. 9 valores únicos ordenados.
-midsole width - forefoot,Nominal,"Texto: ""XX mm"" ou ""XXX mm""",Não,N/A,10.8%,Largura da entressola no antepé. Apenas 10.8% preenchido.
-midsole width - heel,Nominal,"Texto: ""XX mm""",Não,N/A,6.0%,Largura da entressola no calcanhar. Apenas 6.0% preenchido.
-outsole thickness,Nominal,"Texto: ""X.X mm""",Não,N/A,2.1%,Espessura da sola externa. Apenas 2.1% preenchido.
-agility and responsiveness,Nominal,Texto livre,Sim,N/A,0.2%,Avaliação de agilidade. Apenas 0.2% preenchido.
-fuelcell supercomp pacer v2,Nominal,Texto livre,Sim,N/A,0.2%,Atributo específico de produto. Apenas 0.2% preenchido. Erro de extração.
+Atributo,Traducao,Tipo,Domínio,Domínio Dinâmico,Escala,Completude,Observações
+name,nome,Nominal,Texto livre (nomes de produtos),Sim,N/A,100.0%,Identificador único do produto. 530 valores únicos.
+url,url,Nominal,URL válida (formato: https://runrepeat.com/...),Sim,N/A,100.0%,Link para página do produto. Valores únicos.
+image,imagem,Nominal,URL válida de imagem (CDN),Sim,N/A,100.0%,URL da imagem principal do produto.
+audience score,pontuação do público,Ordinal,"Texto: ""XX Category"" (ex: ""92 Superb!"")",Não,Intervalo,98.3%,Score de 0-100 com categoria qualitativa. 23 valores únicos.
+audience_score,pontuação numérica do público,Numérico Contínuo,"[0, 100]",Não,Razão,98.3%,Versão numérica do score. Valor de referência zero.
+price,preço,Nominal,"Texto: ""$XXX""",Sim,N/A,100.0%,Preço em formato texto. 43 valores únicos.
+price_usd,preço em USD,Numérico Contínuo,"[0, +∞) (valores reais positivos)",Sim,Razão,100.0%,Preço em USD. Zero absoluto (gratuito). Razão tem significado (2x mais caro).
+brand,marca,Nominal,Texto (nomes de marcas),Sim,N/A,100.0%,Fabricante do tênis. 26 marcas diferentes.
+pace,ritmo/uso,Ordinal,"{Daily running, Tempo, Racing, Walking, Hiking}",Não,N/A,77.2%,Tipo de ritmo/uso recomendado. 5 categorias.
+arch support,suporte ao arco,Ordinal,"{Neutral, Stability, Motion control}",Não,N/A,100.0%,Tipo de suporte ao arco do pé. 3 categorias ordenadas por nível de suporte.
+strike pattern,padrão de pisada,Nominal,"{Heel, Mid/forefoot, HeelMid/forefoot}",Não,N/A,100.0%,Padrão de pisada recomendado. 3 categorias.
+trail terrain,terreno de trilha,Ordinal,"{Light trail, Rugged terrain, Mountain/Ultra, etc}",Não,N/A,22.8%,Tipo de terreno (apenas para tênis de trail). Apenas 22.8% preenchido.
+weight,peso,Nominal,"Texto: ""XX oz (XXXg)""",Não,N/A,67.0%,Peso em formato texto com múltiplas unidades.
+weight_grams,peso em gramas,Numérico Contínuo,"(0, +∞) gramas",Não,Razão,67.0%,Peso em gramas. Zero absoluto. Razão tem significado (2x mais pesado).
+weight lab weight brand,peso laboratório vs. fabricante,Nominal,"Texto: ""XX oz / XXXg XX oz / XXXg""",Não,N/A,100.0%,Comparação peso laboratório vs. fabricante. 475 valores únicos.
+lightweight,leveza,Nominal,"{✗, NaN}",Não,N/A,45.7%,Indicador binário de leveza. Apenas 45.7% preenchido.
+weight (g),peso (g),Nominal,Texto numérico,Não,N/A,1.7%,Peso alternativo. Apenas 1.7% preenchido. Redundante com weight_grams.
+drop,drop,Nominal,"Texto: ""XX mm""",Não,N/A,97.7%,Diferença de altura calcanhar-antepé em formato texto. 134 valores únicos.
+drop_mm,drop em mm,Numérico Contínuo,"[0, +∞) milímetros",Não,Razão,97.7%,"Drop em mm. Zero significa ""zero drop"". Razão tem significado."
+drop lab drop brand,drop laboratório vs. fabricante,Nominal,"Texto: ""XX mm XX mm""",Não,N/A,100.0%,Comparação drop laboratório vs. fabricante. 313 valores únicos.
+drop (mm),drop (mm),Numérico Contínuo,"[0, +∞) milímetros",Não,Razão,1.7%,Drop alternativo. Apenas 1.7% preenchido. Redundante com drop_mm.
+heel stack,altura do calcanhar,Nominal,"Texto: ""XX mm"" ou ""XX.X mm""",Não,N/A,97.9%,Altura da sola no calcanhar em formato texto. 176 valores únicos.
+forefoot stack,altura do antepé,Nominal,"Texto: ""XX mm"" ou ""XX.X mm""",Não,N/A,97.9%,Altura da sola no antepé em formato texto. 177 valores únicos.
+heel stack lab heel stack brand,altura do calcanhar laboratório vs. fabricante,Nominal,"Texto: ""XX.X mm XX.X mm""",Não,N/A,22.8%,Comparação stack laboratório vs. fabricante. Apenas 22.8% preenchido.
+midsole softness,maciez da entressola,Nominal,"Texto: ""XX HA"" ou ""XX.X HA""",Não,N/A,100.0%,Dureza Shore A. Valores maiores = mais duro. 175 valores únicos.
+difference in midsole softness in cold,diferença na maciez da entressola no frio,Ordinal,"{Small, Big, Huge, Medium, Moderate}",Não,N/A,100.0%,Mudança na maciez em temperatura fria. 5 categorias ordenadas.
+flexibility / stiffness (new method),flexibilidade / rigidez (novo método),Nominal,"Texto: ""XX N"" ou ""XX.X N""",Não,N/A,58.7%,Rigidez em Newtons (novo método). 133 valores únicos. 58.7% preenchido.
+flexibility / stiffness (old method),flexibilidade / rigidez (método antigo),Nominal,"Texto: ""XX N"" ou ""XX.X N""",Não,N/A,79.8%,Rigidez em Newtons (método antigo). 242 valores únicos. 79.8% preenchido.
+flexibility of the shoe (n),flexibilidade do calçado (n),Numérico Contínuo,"(0, +∞) Newtons",Não,Razão,1.7%,Força necessária para dobrar. Apenas 1.7% preenchido.
+flexibility of the shoe (freezer 20 min) (n),flexibilidade do calçado (congelador 20 min) (n),Numérico Contínuo,"(0, +∞) Newtons",Não,Razão,1.5%,Flexibilidade após congelamento. Apenas 1.5% preenchido.
+flexibility of the shoe (freezer 1 hour) (n),flexibilidade do calçado (congelador 1 hora) (n),Numérico Contínuo,"(0, +∞) Newtons",Não,Razão,0.2%,Flexibilidade após 1h congelamento. Apenas 0.2% preenchido.
+flexibility of the shoe (% of change),flexibilidade do calçado (% de mudança),Nominal,"Texto: ""XX%"" ou ""-XX%""",Não,N/A,1.7%,Variação percentual na flexibilidade. Apenas 1.7% preenchido.
+"longitudinal flexibility (1-5 scale, 5 being the stiffest)","flexibilidade longitudinal (escala 1-5, 5 sendo o mais rígido)",Ordinal,"[1, 5] (escala discreta)",Não,Intervalo,1.5%,Flexibilidade longitudinal. Escala ordinal. Apenas 1.5% preenchido.
+"longitudinal flexibility (on a 0-5 scale, 0 being the stiffest)","flexibilidade longitudinal (escala 0-5, 0 sendo o mais rígido)",Ordinal,"[0, 5] (escala discreta)",Não,Intervalo,0.2%,Flexibilidade longitudinal (escala invertida). Apenas 0.2% preenchido.
+"torsional flexibility (1-5 scale, 5 being the stiffest)","flexibilidade torsional (escala 1-5, 5 sendo o mais rígido)",Ordinal,"[1, 5] (escala discreta)",Não,Intervalo,0.6%,Flexibilidade torsional. Apenas 0.6% preenchido.
+"torsional flexibility (on a 0-5 scale, 0 being the stiffest)","flexibilidade torsional (escala 0-5, 0 sendo o mais rígido)",Ordinal,"[0, 5] (escala discreta)",Não,Intervalo,0.2%,Flexibilidade torsional (escala invertida). Apenas 0.2% preenchido.
+toebox durability,durabilidade da parte frontal,Ordinal,"{Bad, Decent, Good, Great, Excellent, Outstanding}",Não,N/A,99.6%,Durabilidade da parte frontal. 6 categorias ordenadas por qualidade.
+heel padding durability,durabilidade do acolchoamento do calcanhar,Ordinal,"{Bad, Decent, Good, Great}",Não,N/A,100.0%,Durabilidade do acolchoamento do calcanhar. 4 categorias ordenadas.
+outsole durability,durabilidade da sola externa,Ordinal,"{Bad, Decent, Good, Great}",Não,N/A,99.6%,Durabilidade da sola externa. 4 categorias ordenadas.
+outsole hardness,dureza da sola externa,Nominal,Texto livre,Não,N/A,0.4%,Dureza da sola. Apenas 0.4% preenchido.
+breathability,respirabilidade,Ordinal,"{Poor, Moderate, Good, Excellent, etc}",Não,N/A,100.0%,Capacidade de ventilação. 9 valores únicos ordenados.
+midsole width - forefoot,largura da entressola - antepé,Nominal,"Texto: ""XX mm"" ou ""XXX mm""",Não,N/A,10.8%,Largura da entressola no antepé. Apenas 10.8% preenchido.
+midsole width - heel,largura da entressola - calcanhar,Nominal,"Texto: ""XX mm""",Não,N/A,6.0%,Largura da entressola no calcanhar. Apenas 6.0% preenchido.
+outsole thickness,espessura da sola externa,Nominal,"Texto: ""X.X mm""",Não,N/A,2.1%,Espessura da sola externa. Apenas 2.1% preenchido.
+agility and responsiveness,agilidade e responsividade,Nominal,Texto livre,Sim,N/A,0.2%,Avaliação de agilidade. Apenas 0.2% preenchido.
+fuelcell supercomp pacer v2,fuelcell supercomp pacer v2,Nominal,Texto livre,Sim,N/A,0.2%,Atributo específico de produto. Apenas 0.2% preenchido. Erro de extração.
